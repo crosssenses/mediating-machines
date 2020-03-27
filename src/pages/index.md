@@ -7,6 +7,18 @@ resources:
     heading: 'Background readings '
   related-initiatives:
     heading: Related initiatives
+  backgroundReadings:
+    heading: Background readings
+    readings:
+      - author: '#'
+        title: '#'
+        text: '#'
+  relatedInitiatives:
+    heading: Related initiatives
+    initiatives:
+      - title: '#'
+        text: '#'
+        moreLink: '#'
 mainpitch:
   title: Why Kaldi
   description: >
@@ -19,6 +31,9 @@ updates:
   heading-updates: Project updates
   heading-twitter: Follow us on twitter
   twitter-account: '#'
+  headingUpdates: Project Updates
+  headingTwitter: Follow us on twitter
+  twitterAccount: '#'
 intro:
   blurbs:
     - image: /img/noun_magnifying_3142985.svg
@@ -65,6 +80,19 @@ about:
 
     If you have questions or if you would like to propose a collaboration,
     please contact: hi@mediating-machines.com
+  partners: >-
+    This is a project by the Karlsruhe Institute of Technology (KIT), the
+    Graduate Institute of International Development Studies, Geneva (IHEID), the
+    Fraunhofer Institute of Applied Informatics and Formal Description Methods
+    (AIFD), Universität Düsseldorf and Swiss Peace. 
+
+
+    The project is funded by the Artificial Intelligence and the Society of the
+    Future Programme of the Volkswagen Foundation. 
+
+
+    If you have questions or if you would like to propose a collaboration,
+    please contact: hi@mediating-machines.com
 activities:
   workstreams:
     - tag: Workstream 1
@@ -74,6 +102,7 @@ activities:
         of AI in mediation support, as well as the organizational and
         technological ecosystems in which AI tools would be embedded. 
       image: /img/noun_magnifying_3142985.svg
+      icon: /img/noun_magnifying_3142985.svg
     - tag: Workstream 2
       title: Data and Methods
       description: >-
@@ -82,6 +111,7 @@ activities:
         particular, we explore options for  transparent AI and related questions
         of inference methods.
       image: /img/noun_coding_2512425.svg
+      icon: /img/noun_coding_2512425.svg
     - tag: Workstream 3
       title: Output Visualisation
       description: >
@@ -89,6 +119,7 @@ activities:
         integrate AI-outputs into the workflows and decision making processes of
         mediation teams.
       image: /img/noun_network_195994.png
+      icon: /img/noun_network_195994.png
   heading: Project milestones
 main:
   heading: Great coffee with no compromises
