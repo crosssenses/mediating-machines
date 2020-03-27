@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Mediating machines
+subheading: Opportunities and Challenges of Artificial Intelligence (AI) in Peacemaking
 mainpitch:
   title: Why Kaldi
   description: >
@@ -9,7 +9,7 @@ mainpitch:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
-title: Great coffee with a conscience
+title: Mediating machines
 about:
   heading: About the project
   description: >-
@@ -30,7 +30,25 @@ intro:
     - image: /img/noun_magnifying_3142985.svg
       tag: Workstream 1
       title: Needs and Ecosystems Analysis
-      description: asd
+      description: >-
+        The team analyzes the practical needs and potential strategic purposes
+        of AI in mediation support, as well as the organizational and
+        technological ecosystems in which AI tools would be embedded. 
+    - tag: Workstream 2
+      title: Data and Methods
+      description: >-
+        The team explores  which methodological and data requirements AI-driven
+        analytical tools will have to fulfill to serve mediators needs. In
+        particular, we explore options for  transparent AI and related questions
+        of inference methods.
+      image: /img/noun_coding_2512425.svg
+    - tag: Workstream 3
+      title: Output Visualisation
+      description: >-
+        The team asks which data visualization techniques might be employed to
+        integrate AI-outputs into the workflows and decision making processes of
+        mediation teams.
+      image: /img/noun_network_195994.png
   heading: Project milestones
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
