@@ -60,11 +60,12 @@ collections:
             ]}
           - {label: Team, name: team, widget: object, fields: [
                 {label: Heading, name: heading, widget: string},
-                {label: Team members, name: team-members, widget: list, fields: [
+                {label: Team members, name: teamMembers, widget: list, fields: [
                     {label: Name, name: name, widget: string},
                     {label: Bio, name: bio, widget: text},
                     {label: Twitter, name: twitter, widget: text},
-                    {label: Image, name: linkedin, widget: text}
+                    {label: LinkedIn, name: linkedin, widget: text},
+                    {label: Image, name: image, widget: image}
                 ]}
             ]}
           - {label: Resources, name: resources, widget: object, fields: [

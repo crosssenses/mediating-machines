@@ -122,23 +122,6 @@ IndexPage.propTypes = {
 
 export default IndexPage
 
-export const pageQuery = graphql`
-  query IndexPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
-      frontmatter {
-        title
-        heading
-        subheading
-        about {
-          heading
-          description
-          partners
-        }
-      }
-    }
-  }
-`
-
 //export const pageQuery = graphql`
 //  query IndexPageTemplate {
 //    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
@@ -149,77 +132,94 @@ export const pageQuery = graphql`
 //        about {
 //          heading
 //          description
-//        }
-//        activities {
-//          heading
-//          workstreams {
-//            icon {
-//              childImageSharp {
-//                fluid(maxWidth: 240, quality: 64) {
-//                  ...GatsbyImageSharpFluid
-//                }
-//              }
-//            }
-//            tag
-//            title
-//            description
-//          }
-//        }
-//        updates {
-//          headingUpdates
-//          headingTwitter
-//          twitterAccount
-//        }
-//        team {
-//          heading
-//          teamMembers {
-//            image {
-//              childImageSharp {
-//                fluid(maxWidth: 240, quality: 64) {
-//                  ...GatsbyImageSharpFluid
-//                }
-//              }
-//            }
-//            name
-//            bio
-//            twitter
-//            linkedin
-//          }
-//        }
-//        resources {
-//          backgroundReadings {
-//            heading
-//            readings {
-//              author
-//              title
-//              text
-//            }
-//          }
-//          relatedInitiatives {
-//            heading
-//            initiatives {
-//              title
-//              text
-//              moreLink
-//            }
-//          }
-//        }
-//        footer {
-//          imprint {
-//            heading
-//            text
-//          }
-//          disclaimer {
-//            heading
-//            text
-//          }
-//          privacy {
-//            heading
-//            text
-//          }
+//          partners
 //        }
 //      }
 //    }
 //  }
 //`
-//
+
+export const pageQuery = graphql`
+  query IndexPageTemplate {
+    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+      frontmatter {
+        title
+        heading
+        subheading
+        about {
+          heading
+          description
+        }
+        activities {
+          heading
+          workstreams {
+            icon {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            tag
+            title
+            description
+          }
+        }
+        updates {
+          headingUpdates
+          headingTwitter
+          twitterAccount
+        }
+        team {
+          heading
+          teamMembers {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            name
+            bio
+            twitter
+            linkedin
+          }
+        }
+        resources {
+          backgroundReadings {
+            heading
+            readings {
+              author
+              title
+              text
+            }
+          }
+          relatedInitiatives {
+            heading
+            initiatives {
+              title
+              text
+              moreLink
+            }
+          }
+        }
+        footer {
+          imprint {
+            heading
+            text
+          }
+          disclaimer {
+            heading
+            text
+          }
+          privacy {
+            heading
+            text
+          }
+        }
+      }
+    }
+  }
+`
+
