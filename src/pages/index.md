@@ -1,9 +1,24 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Mediating machines
+subheading: Opportunities and Challenges of Artificial Intelligence (AI) in Peacemaking
+resources:
+  background-readings:
+    heading: 'Background readings '
+  related-initiatives:
+    heading: Related initiatives
+  backgroundReadings:
+    heading: Background readings
+    readings:
+      - author: '#'
+        title: '#'
+        text: '#'
+  relatedInitiatives:
+    heading: Related initiatives
+    initiatives:
+      - title: '#'
+        text: '#'
+        moreLink: '#'
 mainpitch:
   title: Why Kaldi
   description: >
@@ -11,46 +26,101 @@ mainpitch:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+updates:
+  heading: Project Updates
+  heading-updates: Project updates
+  heading-twitter: Follow us on twitter
+  twitter-account: '#'
+  headingUpdates: Project Updates
+  headingTwitter: Follow us on twitter
+  twitterAccount: '#'
 intro:
   blurbs:
-    - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
+    - image: /img/noun_magnifying_3142985.svg
+      tag: Workstream 1
+      title: Needs and Ecosystems Analysis
+      description: >-
+        The team analyzes the practical needs and potential strategic purposes
+        of AI in mediation support, as well as the organizational and
+        technological ecosystems in which AI tools would be embedded. 
+    - tag: Workstream 2
+      title: Data and Methods
+      description: >-
+        The team explores  which methodological and data requirements AI-driven
+        analytical tools will have to fulfill to serve mediators needs. In
+        particular, we explore options for  transparent AI and related questions
+        of inference methods.
+      image: /img/noun_coding_2512425.svg
+    - tag: Workstream 3
+      title: Output Visualisation
+      description: >-
+        The team asks which data visualization techniques might be employed to
+        integrate AI-outputs into the workflows and decision making processes of
+        mediation teams.
+      image: /img/noun_network_195994.png
+  heading: Project milestones
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
+title: Mediating machines
+about:
+  heading: About the project
+  description: >-
+    This is a project by the Karlsruhe Institute of Technology (KIT), the
+    Graduate Institute of International Development Studies, Geneva (IHEID), the
+    Fraunhofer Institute of Applied Informatics and Formal Description Methods
+    (AIFD), Universität Düsseldorf and Swiss Peace. 
+
+
+    The project is funded by the Artificial Intelligence and the Society of the
+    Future Programme of the Volkswagen Foundation. 
+
+
+    If you have questions or if you would like to propose a collaboration,
+    please contact: hi@mediating-machines.com
+  partners: >-
+    This is a project by the Karlsruhe Institute of Technology (KIT), the
+    Graduate Institute of International Development Studies, Geneva (IHEID), the
+    Fraunhofer Institute of Applied Informatics and Formal Description Methods
+    (AIFD), Universität Düsseldorf and Swiss Peace. 
+
+
+    The project is funded by the Artificial Intelligence and the Society of the
+    Future Programme of the Volkswagen Foundation. 
+
+
+    If you have questions or if you would like to propose a collaboration,
+    please contact: hi@mediating-machines.com
+activities:
+  workstreams:
+    - tag: Workstream 1
+      title: Needs and Ecosystems Analysis
+      description: >-
+        The team analyzes the practical needs and potential strategic purposes
+        of AI in mediation support, as well as the organizational and
+        technological ecosystems in which AI tools would be embedded. 
+      image: /img/noun_magnifying_3142985.svg
+      icon: /img/noun_magnifying_3142985.svg
+    - tag: Workstream 2
+      title: Data and Methods
+      description: >-
+        The team explores  which methodological and data requirements AI-driven
+        analytical tools will have to fulfill to serve mediators needs. In
+        particular, we explore options for  transparent AI and related questions
+        of inference methods.
+      image: /img/noun_coding_2512425.svg
+      icon: /img/noun_coding_2512425.svg
+    - tag: Workstream 3
+      title: Output Visualisation
+      description: >
+        The team asks which data visualization techniques might be employed to
+        integrate AI-outputs into the workflows and decision making processes of
+        mediation teams.
+      image: /img/noun_network_195994.png
+      icon: /img/noun_network_195994.png
+  heading: Project milestones
 main:
   heading: Great coffee with no compromises
   description: >
@@ -67,4 +137,40 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+image: /img/home-jumbotron.jpg
+footer:
+  imprint:
+    heading: Imprint
+    text: |-
+      Andreas Hirblinger Centre on Conflict, Development & Peacebuilding (CCDP)
+      Chemin Eugène-Rigot 2A, Case Postale 1672
+      CH-1211 Genève 1
+  disclaimer:
+    heading: Disclaimer
+    text: >-
+      Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+      laying out print, graphic or web designs. The passage is attributed to an
+      unknown typesetter in the 15th century who is thought to have scrambled
+      parts of Cicero’s De Finibus Bonorum et Malorum for use in a type specimen
+      book.
+  privacy:
+    text: >-
+      Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+      laying out print, graphic or web designs. The passage is attributed to an
+      unknown typesetter in the 15th century who is thought to have scrambled
+      parts of Cicero’s De Finibus Bonorum et Malorum for use in a type specimen
+      book.
+    heading: Privacy policy
+description: >-
+  Kaldi is the ultimate spot for coffee lovers who want to learn about their
+  java’s origin and support the farmers that grew it. We take coffee production,
+  roasting and brewing seriously and we’re glad to pass that knowledge to
+  anyone.
+team:
+  heading: The team
+  team-members:
+    - name: Andreas Hirblinger
+      bio: "Dr. Andreas Hirblinger has extensive experience in international peace mediation. He currently conducts \nresearch on digital inclusion \nand the role of technology in peace processes.\_"
+      twitter: '#'
+      linkedin: '#'
 ---
