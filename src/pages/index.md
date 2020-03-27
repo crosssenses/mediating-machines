@@ -173,4 +173,13 @@ team:
       bio: "Dr. Andreas Hirblinger has extensive experience in international peace mediation. He currently conducts \nresearch on digital inclusion \nand the role of technology in peace processes.\_"
       twitter: '#'
       linkedin: '#'
+  teamMembers:
+    - name: Andreas Hirblinger
+      bio: >-
+        Dr. Andreas Hirblinger has extensive experience in international peace
+        mediation. He currently conducts \nresearch on digital inclusion \nand
+        the role of technology in peace processes.
+      twitter: '#'
+      linkedin: '#'
+      image: /img/blog-index.jpg
 ---
