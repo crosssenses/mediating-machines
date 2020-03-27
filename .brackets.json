@@ -407,7 +407,6 @@
                 "/Users/larissa/Development/mediating-machines/src/components/PreviewCompatibleImage.js": [],
                 "/Users/larissa/Development/mediating-machines/src/components/Pricing.js": [],
                 "/Users/larissa/Development/mediating-machines/src/components/SiteMetadata.js": [],
-                "/Users/larissa/Development/mediating-machines/src/components/Features.js": [],
                 "/Users/larissa/Development/mediating-machines/src/templates/blog-post.js": [],
                 "/Users/larissa/Development/mediating-machines/src/templates/about-page.js": [],
                 "/Users/larissa/Development/mediating-machines/gatsby-config.js": [],
@@ -423,10 +422,13 @@
                 "/Users/larissa/Development/mediating-machines/static/admin/_config.yml": [],
                 "/Users/larissa/Development/mediating-machines/static/admin/config.yml": [],
                 "/Users/larissa/Development/mediating-machines/src/_pages/index.md": [],
-                "/Users/larissa/Development/mediating-machines/src/templates/index-page.js": [],
                 "/Users/larissa/Development/mediating-machines/src/templates/tags.js": [],
                 "/Users/larissa/Development/mediating-machines/src/templates/product-page.js": [],
-                "/Users/larissa/Development/mediating-machines/src/pages/index.md": []
+                "/Users/larissa/Development/mediating-machines/src/pages/index.md": [],
+                "/Users/larissa/Development/mediating-machines/src/templates/index-page.js": [],
+                "/Users/larissa/Development/mediating-machines/src/components/Features.js": [],
+                "/Users/larissa/Development/mediating-machines/src/components/Activitites.js": [],
+                "/Users/larissa/Development/mediating-machines/src/components/Footer.js": []
             }
         },
         "*.scss": {

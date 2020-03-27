@@ -63,7 +63,7 @@ export const IndexPageTemplate = ({
         </h3>
       </div>
     </div>
-    <section className="section">
+    <section className="section" id="about">
       <div className="container">
         <div className="columns">
           <div className="column is-two-thirds">
@@ -76,7 +76,13 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
-    <Features gridItems={activities.workstreams} />
+    <section className="section" id="activities">
+      <div className="container">
+        <h2>{activities.heading}</h2>
+        <Features gridItems={activities.workstreams} />
+      </div>
+    </section>
+
   </div>
 )
 
@@ -149,6 +155,7 @@ export const pageQuery = graphql`
         about {
           heading
           description
+          partners
         }
         activities {
           heading
