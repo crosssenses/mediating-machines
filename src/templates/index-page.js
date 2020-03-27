@@ -7,21 +7,20 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
-  image,
   title,
   heading,
   subheading,
-  mainpitch,
-  description,
-  intro,
+  about,
+  activities,
+  updates,
+  team,
+  resources,
+  footer
 }) => (
   <div>
     <div
       className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
       }}
@@ -64,66 +63,33 @@ export const IndexPageTemplate = ({
         </h3>
       </div>
     </div>
-    <section className="section section--gradient">
+    <section className="section">
       <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-8">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div className="columns">
+          <div className="column is-two-thirds">
+            <h2>{about.heading}</h2>
+            <p>{about.description}</p>
+          </div>
+          <div className="column">
+            <p>{about.partners}</p>
           </div>
         </div>
       </div>
     </section>
+    <Features gridItems={activities.workstreams} />
   </div>
 )
 
 IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
+  about: PropTypes.object,
+  activities: PropTypes.object,
+  updates: PropTypes.object,
+  team: PropTypes.object,
+  resources: PropTypes.object,
+  footer: PropTypes.object
 }
 
 const IndexPage = ({ data }) => {
@@ -139,7 +105,6 @@ const IndexPage = ({ data }) => {
         activities={frontmatter.activities}
         updates={frontmatter.updates}
         team={frontmatter.team}
-        team={frontmatter.team}
         resources={frontmatter.resources}
         footer={frontmatter.footer}
       />
@@ -150,7 +115,7 @@ const IndexPage = ({ data }) => {
 IndexPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
+      frontmatter: PropTypes.object
     }),
   }),
 }
@@ -164,26 +129,97 @@ export const pageQuery = graphql`
         title
         heading
         subheading
-        mainpitch {
-          title
-          description
-        }
-        description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
+        about {
           heading
           description
+          partners
         }
       }
     }
   }
 `
+
+//export const pageQuery = graphql`
+//  query IndexPageTemplate {
+//    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+//      frontmatter {
+//        title
+//        heading
+//        subheading
+//        about {
+//          heading
+//          description
+//        }
+//        activities {
+//          heading
+//          workstreams {
+//            icon {
+//              childImageSharp {
+//                fluid(maxWidth: 240, quality: 64) {
+//                  ...GatsbyImageSharpFluid
+//                }
+//              }
+//            }
+//            tag
+//            title
+//            description
+//          }
+//        }
+//        updates {
+//          headingUpdates
+//          headingTwitter
+//          twitterAccount
+//        }
+//        team {
+//          heading
+//          teamMembers {
+//            image {
+//              childImageSharp {
+//                fluid(maxWidth: 240, quality: 64) {
+//                  ...GatsbyImageSharpFluid
+//                }
+//              }
+//            }
+//            name
+//            bio
+//            twitter
+//            linkedin
+//          }
+//        }
+//        resources {
+//          backgroundReadings {
+//            heading
+//            readings {
+//              author
+//              title
+//              text
+//            }
+//          }
+//          relatedInitiatives {
+//            heading
+//            initiatives {
+//              title
+//              text
+//              moreLink
+//            }
+//          }
+//        }
+//        footer {
+//          imprint {
+//            heading
+//            text
+//          }
+//          disclaimer {
+//            heading
+//            text
+//          }
+//          privacy {
+//            heading
+//            text
+//          }
+//        }
+//      }
+//    }
+//  }
+//`
+//

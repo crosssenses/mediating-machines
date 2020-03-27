@@ -196,7 +196,10 @@
                 "/Users/larissa/Development/mediating-machines/yarn.lock": [],
                 "/Users/larissa/Development/mediating-machines/README.md": [],
                 "/Users/larissa/Development/mediating-machines/.github/ISSUE_TEMPLATE/custom.md": [],
-                "/Users/larissa/Development/mediating-machines/.github/ISSUE_TEMPLATE/feature_request.md": []
+                "/Users/larissa/Development/mediating-machines/.github/ISSUE_TEMPLATE/feature_request.md": [],
+                "/Users/larissa/Development/mediating-machines/src/pages/index.md": [],
+                "/Users/larissa/Development/mediating-machines/src/pages/about/index.md": [],
+                "/Users/larissa/Development/mediating-machines/src/_pages/index.md": []
             }
         },
         "*.js": {
@@ -407,7 +410,6 @@
                 "/Users/larissa/Development/mediating-machines/src/components/SiteMetadata.js": [],
                 "/Users/larissa/Development/mediating-machines/src/components/Features.js": [],
                 "/Users/larissa/Development/mediating-machines/src/templates/blog-post.js": [],
-                "/Users/larissa/Development/mediating-machines/static/admin/config.yml": [],
                 "/Users/larissa/Development/mediating-machines/src/templates/about-page.js": [],
                 "/Users/larissa/Development/mediating-machines/gatsby-config.js": [],
                 "/Users/larissa/Development/mediating-machines/.brackets.json": [],
@@ -419,8 +421,12 @@
                 "/Users/larissa/Development/mediating-machines/README.md": [],
                 "/Users/larissa/Development/mediating-machines/package.json": [],
                 "/Users/larissa/Development/mediating-machines/LICENSE": [],
+                "/Users/larissa/Development/mediating-machines/static/admin/_config.yml": [],
+                "/Users/larissa/Development/mediating-machines/static/admin/config.yml": [],
+                "/Users/larissa/Development/mediating-machines/src/_pages/index.md": [],
                 "/Users/larissa/Development/mediating-machines/src/templates/index-page.js": [],
-                "/Users/larissa/Development/mediating-machines/static/admin/_config.yml": []
+                "/Users/larissa/Development/mediating-machines/src/templates/tags.js": [],
+                "/Users/larissa/Development/mediating-machines/src/templates/product-page.js": []
             }
         },
         "*.scss": {

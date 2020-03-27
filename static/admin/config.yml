@@ -12,20 +12,20 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-#  - name: "blog"
-#    label: "Blog"
-#    folder: "src/pages/blog"
-#    create: true
-#    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-#    fields:
-#      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-#      - {label: "Title", name: "title", widget: "string"}
-#      - {label: "Publish Date", name: "date", widget: "datetime"}
-#      - {label: "Description", name: "description", widget: "text"}
-#      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
-#      - {label: "Featured Image", name: "featuredimage", widget: image}
-#      - {label: "Body", name: "body", widget: "markdown"}
-#      - {label: "Tags", name: "tags", widget: "list"}
+  - name: "blog"
+    label: "Blog"
+    folder: "src/pages/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "pages"
     label: "Pages"
@@ -42,7 +42,7 @@ collections:
           - {label: About, name: about, widget: object, fields: [
                 {label: Heading, name: heading, widget: string},
                 {label: Description, name: description, widget: text},
-                {label: Partners, name: description, widget: markdown}
+                {label: Partners, name: partners, widget: markdown}
             ]}
           - {label: Activities, name: activities, widget: object, fields: [
                 {label: Heading, name: heading, widget: string},
@@ -50,13 +50,13 @@ collections:
                     {label: Tag, name: tag, widget: string},
                     {label: Title, name: title, widget: string},
                     {label: Description, name: description, widget: text},
-                    {label: Image, name: image, widget: image}
+                    {label: Icon, name: icon, widget: image}
                 ]}
             ]}
           - {label: Updates, name: updates, widget: object, fields: [
-                {label: Heading updates, name: heading-updates, widget: string},
-                {label: Heading twitter, name: heading-twitter, widget: string},
-                {label: Twitter account, name: twitter-account, widget: string}
+                {label: Heading updates, name: headingUpdates, widget: string},
+                {label: Heading twitter, name: headingTwitter, widget: string},
+                {label: Twitter account, name: twitterAccount, widget: string}
             ]}
           - {label: Team, name: team, widget: object, fields: [
                 {label: Heading, name: heading, widget: string},
@@ -68,7 +68,7 @@ collections:
                 ]}
             ]}
           - {label: Resources, name: resources, widget: object, fields: [
-                {label: Background readings, name: background-readings, widget: object, fields: [
+                {label: Background readings, name: backgroundReadings, widget: object, fields: [
                     {label: Heading , name: heading, widget: string},
                     {label: Readings, name: readings, widget: list, fields: [
                         {label: Author, name: author, widget: string},
@@ -76,12 +76,12 @@ collections:
                         {label: Text, name: text, widget: text}
                     ]}
                 ]},
-                {label: Related initiatives, name: related-initiatives, widget: object, fields: [
+                {label: Related initiatives, name: relatedInitiatives, widget: object, fields: [
                     {label: Heading , name: heading, widget: string},
                     {label: Initiatives, name: initiatives, widget: list, fields: [
                         {label: Title, name: title, widget: string},
                         {label: Text, name: text, widget: text},
-                        {label: More link, name: more-link, widget: text}
+                        {label: More link, name: moreLink, widget: text}
                     ]}
                 ]}
             ]}
