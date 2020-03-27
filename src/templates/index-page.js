@@ -79,7 +79,7 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <div className="columns">
-                  <div className="column is-12">
+                  <div className="column is-8">
                     <h3 className="has-text-weight-semibold is-size-2">
                       {heading}
                     </h3>
@@ -132,13 +132,16 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
-        image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
+        about={frontmatter.about}
+        activities={frontmatter.activities}
+        updates={frontmatter.updates}
+        team={frontmatter.team}
+        team={frontmatter.team}
+        resources={frontmatter.resources}
+        footer={frontmatter.footer}
       />
     </Layout>
   )
@@ -159,13 +162,6 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
         heading
         subheading
         mainpitch {
