@@ -181,4 +181,5 @@ team:
         the role of technology in peace processes.
       twitter: '#'
       linkedin: '#'
+      image: /img/blog-index.jpg
 ---
