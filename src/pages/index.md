@@ -16,6 +16,9 @@ mainpitch:
     profits are reinvested in their communities.
 updates:
   heading: Project Updates
+  heading-updates: Project updates
+  heading-twitter: Follow us on twitter
+  twitter-account: '#'
 intro:
   blurbs:
     - image: /img/noun_magnifying_3142985.svg
