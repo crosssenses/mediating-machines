@@ -205,6 +205,12 @@ team:
       twitter: ''
       linkedin: ''
       image: /img/apple-touch-icon.png
+    - name: Tamara Mchedlidze
+      bio: >-
+        Dr. Tamara Mchedlidze is an expert in graph algorithms and network
+        visualization, and has constructed visual representations of online
+        participatory processes. 
+      image: /img/tamara.png
     - name: Andreas Hirblinger
       bio: >-
         Dr. Andreas Hirblinger has extensive experience in international peace
@@ -214,4 +220,17 @@ team:
       twitter: hirblinger
       linkedin: ''
       image: /img/blog-index.jpg
+    - name: Michael Färber
+      bio: >-
+        Dr. Michael Färber’s research expertise includes natural language
+        processing, machine learning and semantic web. His current focus is on
+        scholarly data mining, scholarly recommender systems and knowledge
+        graphs.
+      image: /img/michael.png
+    - name: Alexey Pak
+      bio: >-
+        Dr. Alexey Pak is an established researcher with a background in
+        theoretical physics. His areas of expertise include practical machine
+        learning techniques, including ANNs and  Bayesian models.
+      image: /img/alexey.png
 ---
