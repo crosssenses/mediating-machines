@@ -197,6 +197,14 @@ team:
       twitter: '#'
       linkedin: '#'
   teamMembers:
+    - name: Gregor Betz
+      bio: >-
+        Prof. Gregor Betz specializes in reason and argumentation theory,
+        opinion and argument maps, in addition to the application of digital
+        technologies in argumentation. 
+      twitter: ''
+      linkedin: ''
+      image: /img/apple-touch-icon.png
     - name: Andreas Hirblinger
       bio: >-
         Dr. Andreas Hirblinger has extensive experience in international peace
@@ -206,12 +214,4 @@ team:
       twitter: hirblinger
       linkedin: ''
       image: /img/blog-index.jpg
-    - name: Gregor Betz
-      bio: >-
-        Prof. Gregor Betz specializes in reason and argumentation theory,
-        opinion and argument maps, in addition to the application of digital
-        technologies in argumentation. 
-      twitter: ''
-      linkedin: ''
-      image: /img/apple-touch-icon.png
 ---
