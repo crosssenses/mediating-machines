@@ -95,41 +95,52 @@ about:
   partners: >-
     This is a project by the Karlsruhe Institute of Technology (KIT), the
     Graduate Institute of International Development Studies, Geneva (IHEID), the
-    Fraunhofer Institute of Applied Informatics and Formal Description Methods
-    (AIFD), Universität Düsseldorf and SwissPeace. 
+    FraunhoferInstitute of Optronics, System Technologies and Image
+    Exploitation(IOSB), Universität Düsseldorf and SwissPeace.
 
 
-    The project is funded by the Artificial Intelligence and the Society of the
-    Future Programme of the Volkswagen Foundation. 
+    The project is funded by the [Artificial Intelligence and the Society of the
+    Future
+    Programme](https://www.volkswagenstiftung.de/en/funding/our-funding-portfolio-at-a-glance/artificial-intelligence-and-the-society-of-the-future)of
+    the Volkswagen Foundation.
 
 
     For inquiries concerning the project or requests for collaboration, please
-    contact us at:  hi@mediating-machines.com
+    contact us at: Email
 activities:
   workstreams:
     - tag: Workstream 1
       title: Needs and Ecosystems Analysis
       description: >-
-        The team analyzes the practical needs and potential strategic purposes
-        of AI in mediation support, as well as the organizational and
-        technological ecosystems in which AI tools would be embedded. 
+        The team will analyze the practical needs and potential strategic
+        purposes of AI in mediation support, as well as the organizational and
+        technological ecosystems in which AI tools could be embedded. We will
+        examine existing efforts to create AI applications for mediators and
+        explore how argument data could be used by mediators to assess dynamics
+        of negotiation. 
       image: /img/noun_magnifying_3142985.svg
       icon: /img/noun_magnifying_3142985.svg
     - tag: Workstream 2
       title: Data and Methods
       description: >-
-        The team explores  which methodological and data requirements AI-driven
-        analytical tools will have to fulfill to serve mediators needs. In
-        particular, we explore options for  transparent AI and related questions
-        of inference methods.
+        The team will discuss  the methodological and data requirements of
+        AI-supported argument analysis. We will look at options for transparent
+        and explainable  AI and related questions of inference methods. The team
+        will also identify and analyze various data sources for
+        machine-supported argument analysis, including data derived from social
+        media and other digital inclusion efforts.
       image: /img/noun_coding_2512425.svg
       icon: /img/noun_coding_2512425.svg
     - tag: Workstream 3
       title: Output Visualisation
-      description: >
-        The team asks which data visualization techniques might be employed to
-        integrate AI-outputs into the workflows and decision making processes of
-        mediation teams.
+      description: >-
+        The team will identify data visualization techniques that can help 
+        integrate AI outputs into  mediator’s workflows and decision-making
+        processes. This includes  geographic visualization and graph-based
+        techniques  graph-based techniques. We will also explore the prospects
+        of creating visual data mining tools that present multiple perspectives
+        on the data through several visualization styles and interactive data
+        analysis.
       image: /img/noun_network_195994.png
       icon: /img/noun_network_195994.png
   heading: Project milestones
@@ -194,9 +205,12 @@ team:
       twitter: '#'
       linkedin: '#'
       image: /img/blog-index.jpg
-    - name: xxx
-      bio: yxcyxc
-      twitter: yxc
-      linkedin: yxc
+    - name: Gregor Betz
+      bio: >-
+        Prof. Gregor Betz specializes in reason and argumentation theory,
+        opinion and argument maps, in addition to the application of digital
+        technologies in argumentation. 
+      twitter: a
+      linkedin: a
       image: /img/apple-touch-icon.png
 ---
