@@ -5,6 +5,8 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Activities from '../components/Activities'
 import Team from '../components/Team'
+import Readings from '../components/Readings'
+import Initiatives from '../components/Readings'
 import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
@@ -69,6 +71,20 @@ export const IndexPageTemplate = ({
       <div className="container">
         <h2>{team.heading}</h2>
         <Team gridItems={team.teamMembers} />
+      </div>
+    </section>
+    <section className="section" id="resources">
+      <div className="container">
+        <div className="columns">
+          <div className="column is-two-thirds">
+            <h2>{resources.backgroundReadings.heading}</h2>
+            <Readings gridItems={resources.backgroundReadings.readings} />
+          </div>
+          <div className="column">
+            <h2>{resources.relatedInitiatives.heading}</h2>
+            <Initiatives gridItems={resources.relatedInitiatives.initiatives} />
+          </div>
+        </div>
       </div>
     </section>
   </div>
@@ -195,7 +211,6 @@ export const pageQuery = graphql`
             initiatives {
               title
               text
-              moreLink
             }
           }
         }
