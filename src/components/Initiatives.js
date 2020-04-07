@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const InitiativesList = ({ gridItems }) => (
-  <div className="columns is-multiline">
+  <div className="initiative">
     {gridItems.map(item => (
       <div key={item.tag} className="column">
         <h3>{item.title}</h3>

@@ -13,12 +13,12 @@ const ActivityGrid = ({ gridItems }) => (
               display: 'inline-block',
             }}
           >
-            <PreviewCompatibleImage imageInfo={item} />
+            <PreviewCompatibleImage imageInfo={item.icon} />
           </div>
         </div>
-        <p>{item.tag}</p>
+        <p className="activityTag">{item.tag}</p>
         <h3>{item.title}</h3>
-        <p>{item.description}</p>
+        <p className="description">{item.description}</p>
       </div>
     ))}
   </div>

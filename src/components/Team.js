@@ -5,11 +5,11 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 const TeamGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map(item => (
-      <div key={item.tag} className="column">
+      <div key={item.tag} className="column teamMember is-one-third">
         <div className="has-text-centered">
           <div
             style={{
-              width: '240px',
+              width: '380px',
               display: 'inline-block',
             }}
           >

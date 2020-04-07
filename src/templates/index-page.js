@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { graphql, withPrefix } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Activities from '../components/Activities'
@@ -8,6 +8,10 @@ import Team from '../components/Team'
 import Readings from '../components/Readings'
 import Initiatives from '../components/Readings'
 import BlogRoll from '../components/BlogRoll'
+
+import bg_hero from '../img/backgrounds/bg_hero.png'
+import bg_title from '../img/backgrounds/bg_title.png'
+
 
 export const IndexPageTemplate = ({
   title,
@@ -21,10 +25,12 @@ export const IndexPageTemplate = ({
   footer
 }) => (
   <div class="pageWrapper">
-    <section className="section" id="hero">
+    <section className="section" id="hero"
+     style={{backgroundImage: `url(${bg_hero})`}}>
       <div className="container">
         <div className="columns">
-          <div className="column is-5 is-offset-7 ">
+          <div className="column is-5 is-offset-7 pageTitle"
+           style={{backgroundImage: `url(${bg_title})`}}>
             <h1>{heading}</h1>
             <h2>{subheading}</h2>
           </div>

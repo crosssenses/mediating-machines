@@ -2,9 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const ReadingsList = ({ gridItems }) => (
-  <div className="columns is-multiline">
+  <div className="reading">
     {gridItems.map(item => (
-      <div key={item.tag} className="column">
+      <div key={item.tag} className="listItem">
         <p>{item.author}</p>
         <h3>{item.title}</h3>
         <p>{item.text}</p>
