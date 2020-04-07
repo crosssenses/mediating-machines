@@ -182,4 +182,9 @@ team:
       twitter: '#'
       linkedin: '#'
       image: /img/blog-index.jpg
+    - name: xxx
+      bio: yxcyxc
+      twitter: yxc
+      linkedin: yxc
+      image: /img/apple-touch-icon.png
 ---
