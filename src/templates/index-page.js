@@ -53,7 +53,7 @@ export const IndexPageTemplate = ({
         <div className="columns">
           <div className="column is-two-thirds">
             <h2>{updates.headingUpdates}</h2>
-            <p>{about.description}</p>
+            <BlogRoll />
           </div>
           <div className="column">
             <h2>{updates.headingTwitter}</h2>

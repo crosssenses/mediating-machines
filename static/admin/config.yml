@@ -73,8 +73,8 @@ collections:
                     {label: Heading , name: heading, widget: string},
                     {label: Readings, name: readings, widget: list, fields: [
                         {label: Author, name: author, widget: string},
-                        {label: Title, name: title, widget: text},
-                        {label: Text, name: text, widget: text}
+                        {label: Title, name: title, widget: string},
+                        {label: Text, name: text, widget: markdown}
                     ]}
                 ]},
                 {label: Related initiatives, name: relatedInitiatives, widget: object, fields: [
@@ -82,7 +82,6 @@ collections:
                     {label: Initiatives, name: initiatives, widget: list, fields: [
                         {label: Title, name: title, widget: string},
                         {label: Text, name: text, widget: text},
-                        {label: More link, name: moreLink, widget: text}
                     ]}
                 ]}
             ]}
