@@ -68,31 +68,43 @@ title: Mediating machines
 about:
   heading: About the project
   description: >-
-    This is a project by the Karlsruhe Institute of Technology (KIT), the
-    Graduate Institute of International Development Studies, Geneva (IHEID), the
-    Fraunhofer Institute of Applied Informatics and Formal Description Methods
-    (AIFD), Universität Düsseldorf and Swiss Peace. 
+    In today’s  technologized world, efforts to end armed conflict through
+    mediation are increasingly shaped by digital technologies. While peacemaking
+    traditionally has been considered a human-centered activity, negotiations
+    are often supplemented with online activities. Social media has come to
+    change the landscape of conflict, with conflict parties and stakeholders
+    pro-actively using different online platforms to make their voices heard.
+    The digitization of peace processes produces large amounts of data, which
+    cannot be sufficiently analyzed using conventional means.
 
 
-    The project is funded by the Artificial Intelligence and the Society of the
-    Future Programme of the Volkswagen Foundation. 
+    Artificial Intelligence (AI) offers opportunities to develop tools that
+    could support mediators and their teams in gathering and analyzing the data
+    produced in the context of peace processes. Although the topic of AI has
+    come to receive increased attention in the field of peace mediation, there
+    is a lack of concrete examples and applications that could bring discussions
+    forward. This project will therefore explore the ways in which
+    AI-applications could be used in peacemaking, while raising important
+    questions about potential challenges these applications might pose.
 
 
-    If you have questions or if you would like to propose a collaboration,
-    please contact: hi@mediating-machines.com
+    In particular, the research will analyze how AI can support the analysis of
+    arguments and opinions voiced by conflict parties and stakeholders in
+    digital data. To this end, the project builds on recent advances in
+    text-mining of online participation processes.
   partners: >-
     This is a project by the Karlsruhe Institute of Technology (KIT), the
     Graduate Institute of International Development Studies, Geneva (IHEID), the
     Fraunhofer Institute of Applied Informatics and Formal Description Methods
-    (AIFD), Universität Düsseldorf and Swiss Peace. 
+    (AIFD), Universität Düsseldorf and SwissPeace. 
 
 
     The project is funded by the Artificial Intelligence and the Society of the
     Future Programme of the Volkswagen Foundation. 
 
 
-    If you have questions or if you would like to propose a collaboration,
-    please contact: hi@mediating-machines.com
+    For inquiries concerning the project or requests for collaboration, please
+    contact us at:  hi@mediating-machines.com
 activities:
   workstreams:
     - tag: Workstream 1
