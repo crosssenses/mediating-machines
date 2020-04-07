@@ -200,17 +200,18 @@ team:
     - name: Andreas Hirblinger
       bio: >-
         Dr. Andreas Hirblinger has extensive experience in international peace
-        mediation. He currently conducts \nresearch on digital inclusion \nand
-        the role of technology in peace processes.
-      twitter: '#'
-      linkedin: '#'
+        mediation. He conducts research on the role of knowledge production in
+        peacebuilding,  digital inclusion and the use of  technology in peace
+        processes. 
+      twitter: hirblinger
+      linkedin: ''
       image: /img/blog-index.jpg
     - name: Gregor Betz
       bio: >-
         Prof. Gregor Betz specializes in reason and argumentation theory,
         opinion and argument maps, in addition to the application of digital
         technologies in argumentation. 
-      twitter: a
-      linkedin: a
+      twitter: ''
+      linkedin: ''
       image: /img/apple-touch-icon.png
 ---
