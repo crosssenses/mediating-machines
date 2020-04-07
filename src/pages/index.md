@@ -10,9 +10,26 @@ resources:
   backgroundReadings:
     heading: Background readings
     readings:
-      - author: '#'
-        title: '#'
-        text: '#'
+      - author: Max Mustermann
+        title: Looking for beta testers
+        text: >-
+          Efforts to end armed conflict through mediation are increasingly
+          shaped by Digital Technologies. While peacemaking is traditionally
+          understood as a human-centered activity, negotiations are increasingly
+          supplemented with online activities.\
+
+          [Contact us, if you would like to participate.](#)
+      - author: 'Karla Kolumna, Benjamin Blümchen'
+        title: Working paper on Methodology
+        text: >-
+          Efforts to end armed conflict through mediation are increasingly
+          shaped by Digital Technologies. While peacemaking is traditionally
+          understood as a human-centered activity, negotiations are increasingly
+          supplemented with online activities.\
+
+          [\
+
+          Read our working paper and give us feedback.](#)
   relatedInitiatives:
     heading: Related initiatives
     initiatives:
@@ -204,7 +221,7 @@ team:
         technologies in argumentation. 
       twitter: ''
       linkedin: ''
-      image: /img/apple-touch-icon.png
+      image: /img/home-jumbotron.jpg
     - name: Tamara Mchedlidze
       bio: >-
         Dr. Tamara Mchedlidze is an expert in graph algorithms and network
