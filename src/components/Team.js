@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-const FeatureGrid = ({ gridItems }) => (
+const TeamGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map(item => (
       <div key={item.tag} className="column">
@@ -16,23 +16,27 @@ const FeatureGrid = ({ gridItems }) => (
             <PreviewCompatibleImage imageInfo={item} />
           </div>
         </div>
-        <p>{item.tag}</p>
-        <h3>{item.title}</h3>
-        <p>{item.description}</p>
+        <h3>{item.name}</h3>
+        <p className="bio">{item.bio}</p>
+        <p className="socials">
+          {item.twitter}
+          {item.linkedIn}
+        </p>
       </div>
     ))}
   </div>
 )
 
-FeatureGrid.propTypes = {
+TeamGrid.propTypes = {
   gridItems: PropTypes.arrayOf(
     PropTypes.shape({
-      icon: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-      tag: PropTypes.string,
-      title: PropTypes.string,
-      description: PropTypes.string,
+      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+      name: PropTypes.string,
+      bio: PropTypes.string,
+      twitter: PropTypes.string,
+      linkedIn: PropTypes.string,
     })
   ),
 }
 
-export default FeatureGrid
+export default TeamGrid

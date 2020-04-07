@@ -63,8 +63,8 @@ collections:
                 {label: Team members, name: teamMembers, widget: list, fields: [
                     {label: Name, name: name, widget: string},
                     {label: Bio, name: bio, widget: text},
-                    {label: Twitter, name: twitter, widget: text},
-                    {label: LinkedIn, name: linkedin, widget: text},
+                    {label: Twitter, name: twitter, widget: text, required: false},
+                    {label: LinkedIn, name: linkedin, widget: text, required: false},
                     {label: Image, name: image, widget: image}
                 ]}
             ]}

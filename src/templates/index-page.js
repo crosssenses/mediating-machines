@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
+import Activities from '../components/Activities'
+import Team from '../components/Team'
 import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
@@ -44,10 +45,32 @@ export const IndexPageTemplate = ({
     <section className="section" id="activities">
       <div className="container">
         <h2>{activities.heading}</h2>
-        <Features gridItems={activities.workstreams} />
+        <Activities gridItems={activities.workstreams} />
       </div>
     </section>
-
+    <section className="section" id="updates">
+      <div className="container">
+        <div className="columns">
+          <div className="column is-two-thirds">
+            <h2>{updates.headingUpdates}</h2>
+            <p>{about.description}</p>
+          </div>
+          <div className="column">
+            <h2>{updates.headingTwitter}</h2>
+            <div className="twitterFeed">
+              <a class="twitter-timeline" data-width="300" data-height="500" data-dnt="true" href="https://twitter.com/hirblinger?ref_src=twsrc%5Etfw">Tweets by hirblinger</a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section className="section" id="team">
+      <div className="container">
+        <h2>{team.heading}</h2>
+        <Team gridItems={team.teamMembers} />
+      </div>
+    </section>
   </div>
 )
 

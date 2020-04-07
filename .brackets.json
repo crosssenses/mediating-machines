@@ -198,7 +198,8 @@
                 "/Users/larissa/Development/mediating-machines/.github/ISSUE_TEMPLATE/feature_request.md": [],
                 "/Users/larissa/Development/mediating-machines/src/pages/index.md": [],
                 "/Users/larissa/Development/mediating-machines/src/pages/about/index.md": [],
-                "/Users/larissa/Development/mediating-machines/src/_pages/index.md": []
+                "/Users/larissa/Development/mediating-machines/src/_pages/index.md": [],
+                "/Users/larissa/Development/mediating-machines/src/templates/product-page.js": []
             }
         },
         "*.js": {
@@ -428,7 +429,10 @@
                 "/Users/larissa/Development/mediating-machines/src/components/Activitites.js": [],
                 "/Users/larissa/Development/mediating-machines/src/components/Features.js": [],
                 "/Users/larissa/Development/mediating-machines/src/cms/preview-templates/IndexPagePreview.js": [],
-                "/Users/larissa/Development/mediating-machines/src/templates/index-page.js": []
+                "/Users/larissa/Development/mediating-machines/test-data-table/index.html": [],
+                "/Users/larissa/Development/mediating-machines/src/templates/index-page.js": [],
+                "/Users/larissa/Development/mediating-machines/src/components/Activities.js": [],
+                "/Users/larissa/Development/mediating-machines/src/components/Team.js": []
             },
             "brackets-git.stripWhitespaceFromCommits": true,
             "brackets-git.addEndlineToTheEndOfFile": true,
