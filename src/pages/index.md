@@ -136,7 +136,7 @@ activities:
         explore how argument data could be used by mediators to assess dynamics
         of negotiation. 
       image: /img/noun_magnifying_3142985.svg
-      icon: /img/noun_magnifying_3142985.svg
+      icon: /img/noun_magnifying_3142985-2x.png
     - tag: Workstream 2
       title: Data and Methods
       description: >-
@@ -147,7 +147,7 @@ activities:
         machine-supported argument analysis, including data derived from social
         media and other digital inclusion efforts.
       image: /img/noun_coding_2512425.svg
-      icon: /img/noun_coding_2512425.svg
+      icon: /img/noun_coding_2512425-2x.png
     - tag: Workstream 3
       title: Output Visualisation
       description: >-
@@ -221,7 +221,7 @@ team:
         technologies in argumentation. 
       twitter: ''
       linkedin: ''
-      image: /img/home-jumbotron.jpg
+      image: /img/dummy-landscape-400x225-2x.png
     - name: Tamara Mchedlidze
       bio: >-
         Dr. Tamara Mchedlidze is an expert in graph algorithms and network
@@ -235,8 +235,8 @@ team:
         peacebuilding,  digital inclusion and the use of  technology in peace
         processes. 
       twitter: hirblinger
-      linkedin: ''
-      image: /img/blog-index.jpg
+      linkedin: andreas-hirblinger-99697b106
+      image: /img/dummy-landscape-400x225-2x.png
     - name: Michael Färber
       bio: >-
         Dr. Michael Färber’s research expertise includes natural language
@@ -250,4 +250,17 @@ team:
         theoretical physics. His areas of expertise include practical machine
         learning techniques, including ANNs and  Bayesian models.
       image: /img/alexey.png
+    - name: Stefan Conrad
+      bio: >
+        Prof. Stefan Conrad has expertise in machine learning and natural
+        language processing, with a particular focus on argument mining of
+        online participatory processes.
+      image: /img/dummy-landscape-400x225-2x.png
+    - bio: >-
+        Prof. Laurent Götschel is the Director of SwissPeace  and professor of
+        political science at the University of Basel. He has close ties to the
+        peace mediation community due to a long standing experience in
+        international peacebuilding. 
+      name: Laurent Götschel
+      image: /img/dummy-landscape-400x225-2x.png
 ---
