@@ -136,7 +136,7 @@ activities:
         explore how argument data could be used by mediators to assess dynamics
         of negotiation. 
       image: /img/noun_magnifying_3142985.svg
-      icon: /img/noun_magnifying_3142985-2x.png
+      icon: /img/mask-group-3-2x.png
     - tag: Workstream 2
       title: Data and Methods
       description: >-
@@ -147,7 +147,7 @@ activities:
         machine-supported argument analysis, including data derived from social
         media and other digital inclusion efforts.
       image: /img/noun_coding_2512425.svg
-      icon: /img/noun_coding_2512425-2x.png
+      icon: /img/mask-group-2-2x.png
     - tag: Workstream 3
       title: Output Visualisation
       description: >-
@@ -159,7 +159,7 @@ activities:
         on the data through several visualization styles and interactive data
         analysis.
       image: /img/noun_network_195994.png
-      icon: /img/noun_network_195994.png
+      icon: /img/mask-group-1-2x.png
   heading: Project milestones
 main:
   heading: Great coffee with no compromises
