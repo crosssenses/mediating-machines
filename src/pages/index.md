@@ -237,6 +237,25 @@ team:
       twitter: hirblinger
       linkedin: andreas-hirblinger-99697b106
       image: /img/dummy-landscape-400x225-2x.png
+    - name: David Lanius
+      bio: >-
+        Dr. David Lanius’ areas of expertise include argumentation analysis,
+        argument theory and argumentation reconstruction. He is particularly
+        interested in analyzing the use of alternative facts or “fake news” in
+        populist debates.
+      image: /img/david.png
+    - name: Stefan Conrad
+      bio: >
+        Prof. Stefan Conrad has expertise in machine learning and natural
+        language processing, with a particular focus on argument mining of
+        online participatory processes.
+      image: /img/dummy-landscape-400x225-2x.png
+    - name: Alexey Pak
+      bio: >-
+        Dr. Alexey Pak is an established researcher with a background in
+        theoretical physics. His areas of expertise include practical machine
+        learning techniques, including ANNs and  Bayesian models.
+      image: /img/alexey.png
     - name: Michael Färber
       bio: >-
         Dr. Michael Färber’s research expertise includes natural language
@@ -244,23 +263,14 @@ team:
         scholarly data mining, scholarly recommender systems and knowledge
         graphs.
       image: /img/michael.png
-    - name: Alexey Pak
-      bio: >-
-        Dr. Alexey Pak is an established researcher with a background in
-        theoretical physics. His areas of expertise include practical machine
-        learning techniques, including ANNs and  Bayesian models.
-      image: /img/alexey.png
-    - name: Stefan Conrad
-      bio: >
-        Prof. Stefan Conrad has expertise in machine learning and natural
-        language processing, with a particular focus on argument mining of
-        online participatory processes.
-      image: /img/dummy-landscape-400x225-2x.png
     - bio: >-
         Prof. Laurent Götschel is the Director of SwissPeace  and professor of
         political science at the University of Basel. He has close ties to the
         peace mediation community due to a long standing experience in
         international peacebuilding. 
       name: Laurent Götschel
-      image: /img/dummy-landscape-400x225-2x.png
+      image: /img/laurent.png
+    - bio: "Ahmed Eleiba is the senior program officer for Mediation at SwissPeace. He also represents SwissPeace in the CyberMediation initiative, which focuses on the role of social media and digital technologies in peace mediation.\_"
+      name: Ahmed Eleiba
+      image: /img/ahmed.png
 ---
