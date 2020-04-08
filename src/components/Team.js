@@ -2,25 +2,34 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
+import Icon from '@mdi/react';
+import {
+  mdiTwitter,
+  mdiLinkedIn
+  } from '@mdi/js'
+
 const TeamGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map(item => (
       <div key={item.tag} className="column teamMember is-one-third">
         <div className="has-text-centered">
-          <div
-            style={{
-              width: '380px',
-              display: 'inline-block',
-            }}
-          >
-            <PreviewCompatibleImage imageInfo={item} />
-          </div>
+          <PreviewCompatibleImage imageInfo={item} />
         </div>
         <h3>{item.name}</h3>
         <p className="bio">{item.bio}</p>
         <p className="socials">
-          {item.twitter}
+          {!!(item.twitter)?
+            <a href={`https://twitter.com/@${item.twitter}`} target="_blank">
+              <Icon path={mdiTwitter} size="1em" />
+            </a>
+          :""}
+          {!!(item.linkedIn)?
+            <a href={`https://linkedin.com/@${item.linkedIn}`} target="_blank">
+              <Icon path={mdiLinkedIn} size="1em" />
+            </a>
+          :""}
           {item.linkedIn}
+
         </p>
       </div>
     ))}

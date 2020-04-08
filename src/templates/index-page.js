@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql, withPrefix } from 'gatsby'
+import ReactMarkdown from 'react-markdown'
 
 import Layout from '../components/Layout'
 import Activities from '../components/Activities'
@@ -29,7 +30,7 @@ export const IndexPageTemplate = ({
      style={{backgroundImage: `url(${bg_hero})`}}>
       <div className="container">
         <div className="columns">
-          <div className="column is-5 is-offset-7 pageTitle"
+          <div className="column is-6 is-offset-6 pageTitle"
            style={{backgroundImage: `url(${bg_title})`}}>
             <h1>{heading}</h1>
             <h2>{subheading}</h2>
@@ -42,10 +43,10 @@ export const IndexPageTemplate = ({
         <div className="columns">
           <div className="column is-two-thirds">
             <h2>{about.heading}</h2>
-            <p>{about.description}</p>
+            <ReactMarkdown source={about.description} />
           </div>
           <div className="column">
-            <p>{about.partners}</p>
+            <ReactMarkdown source={about.partners} />
           </div>
         </div>
       </div>

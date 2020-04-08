@@ -435,11 +435,11 @@
                 "/Users/larissa/Development/mediating-machines/src/components/Activities.js": [],
                 "/Users/larissa/Development/mediating-machines/src/components/Team.js": [],
                 "/Users/larissa/Development/mediating-machines/src/pages/blog/index.js": [],
-                "/Users/larissa/Development/mediating-machines/src/templates/index-page.js": [],
                 "/Users/larissa/Development/mediating-machines/src/components/Readings.js": [],
                 "/Users/larissa/Development/mediating-machines/src/components/Initiatives.js": [],
-                "/Users/larissa/Development/mediating-machines/src/styles/all.sass": [],
-                "/Users/larissa/Development/mediating-machines/src/pages/about/index.md": []
+                "/Users/larissa/Development/mediating-machines/src/pages/about/index.md": [],
+                "/Users/larissa/Development/mediating-machines/src/templates/index-page.js": [],
+                "/Users/larissa/Development/mediating-machines/src/styles/all.sass": []
             },
             "brackets-git.stripWhitespaceFromCommits": true,
             "brackets-git.addEndlineToTheEndOfFile": true,
