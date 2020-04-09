@@ -236,7 +236,7 @@ team:
         processes. 
       twitter: hirblinger
       linkedin: andreas-hirblinger-99697b106
-      image: /img/dummy-landscape-400x225-2x.png
+      image: /img/andreas.png
     - name: David Lanius
       bio: >-
         Dr. David Lanius’ areas of expertise include argumentation analysis,
