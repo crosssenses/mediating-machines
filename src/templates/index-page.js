@@ -221,20 +221,6 @@ export const pageQuery = graphql`
             }
           }
         }
-        footer {
-          imprint {
-            heading
-            text
-          }
-          disclaimer {
-            heading
-            text
-          }
-          privacy {
-            heading
-            text
-          }
-        }
       }
     }
   }

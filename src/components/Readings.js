@@ -1,13 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import ReactMarkdown from 'react-markdown'
 
 const ReadingsList = ({ gridItems }) => (
   <div className="reading">
     {gridItems.map(item => (
       <div key={item.tag} className="listItem">
-        <p>{item.author}</p>
+        <p className="author">{item.author}</p>
         <h3>{item.title}</h3>
-        <p>{item.text}</p>
+        <ReactMarkdown source={item.text} />
       </div>
     ))}
   </div>
