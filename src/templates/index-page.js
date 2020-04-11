@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql, withPrefix } from 'gatsby'
+import { graphql } from 'gatsby'
 import ReactMarkdown from 'react-markdown'
 
 import Layout from '../components/Layout'
