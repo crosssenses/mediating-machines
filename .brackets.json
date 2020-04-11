@@ -202,7 +202,9 @@
                 "/Users/larissa/Development/mediating-machines/src/templates/product-page.js": [],
                 "/Users/larissa/Development/mediating-machines/src/pages/blog/index.js": [],
                 "/Users/larissa/Development/mediating-machines/gatsby-config.js": [],
-                "/Users/larissa/Development/mediating-machines/src/components/Initiatives.js": []
+                "/Users/larissa/Development/mediating-machines/src/components/Initiatives.js": [],
+                "/Users/larissa/Development/mediating-machines/src/pages/updates/2016-12-17-test.md": [],
+                "/Users/larissa/Development/mediating-machines/src/cms/preview-templates/NewsPostPreview.js": []
             }
         },
         "*.js": {
