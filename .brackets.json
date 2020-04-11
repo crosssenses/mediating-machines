@@ -413,7 +413,6 @@
                 "/Users/larissa/Development/mediating-machines/src/templates/about-page.js": [],
                 "/Users/larissa/Development/mediating-machines/gatsby-config.js": [],
                 "/Users/larissa/Development/mediating-machines/.brackets.json": [],
-                "/Users/larissa/Development/mediating-machines/gatsby-node.js": [],
                 "/Users/larissa/Development/mediating-machines/src/components/Navbar.js": [],
                 "/Users/larissa/Development/mediating-machines/src/components/all.sass": [],
                 "/Users/larissa/Development/mediating-machines/src/components/BlogRoll.js": [],
@@ -441,7 +440,13 @@
                 "/Users/larissa/Development/mediating-machines/src/styles/all.sass": [],
                 "/Users/larissa/Development/mediating-machines/src/pages/updates/index.js": [],
                 "/Users/larissa/Development/mediating-machines/src/templates/news-post.js": [],
-                "/Users/larissa/Development/mediating-machines/src/templates/_blog-post.js": []
+                "/Users/larissa/Development/mediating-machines/src/templates/_blog-post.js": [],
+                "/Users/larissa/Development/mediating-machines/src/templates/index-page.js": [],
+                "/Users/larissa/Development/mediating-machines/src/components/UpdatesFeed.js": [],
+                "/Users/larissa/Development/mediating-machines/src/components/_BlogRoll.js": [],
+                "/Users/larissa/Development/mediating-machines/src/pages/tags/index.js": [],
+                "/Users/larissa/Development/mediating-machines/gatsby-node.js": [],
+                "/Users/larissa/Development/mediating-machines/src/cms/preview-templates/NewsPostPreview.js": []
             },
             "brackets-git.stripWhitespaceFromCommits": true,
             "brackets-git.addEndlineToTheEndOfFile": true,

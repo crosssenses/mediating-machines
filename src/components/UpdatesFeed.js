@@ -3,13 +3,13 @@ import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
-class BlogRoll extends React.Component {
+class UpdatesFeed extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="blogList">
+      <div className="newsList">
         {posts &&
           posts.map(({ node: post }) => (
             <div className="listItem" key={post.id}>
@@ -28,7 +28,7 @@ class BlogRoll extends React.Component {
   }
 }
 
-BlogRoll.propTypes = {
+UpdatesFeed.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -39,10 +39,10 @@ BlogRoll.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-      query BlogRollQuery {
+      query UpdatesFeedQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+          filter: { frontmatter: { templateKey: { eq: "news-post" } } }
         ) {
           edges {
             node {
@@ -55,13 +55,12 @@ export default () => (
                 title
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
-                featuredpost
               }
             }
           }
         }
       }
     `}
-    render={(data, count) => <BlogRoll data={data} count={count} />}
+    render={(data, count) => <UpdatesFeed data={data} count={count} />}
   />
 )
