@@ -181,10 +181,16 @@ image: /img/home-jumbotron.jpg
 footer:
   imprint:
     heading: Imprint
-    text: |-
-      Andreas Hirblinger Centre on Conflict, Development & Peacebuilding (CCDP)
-      Chemin Eugène-Rigot 2A, Case Postale 1672
+    text: >-
+      [Centre on Conflict, Development & Peacebuilding
+      (CCDP)](https://graduateinstitute.ch/ccdp)\
+
+      Chemin Eugène-Rigot 2A, Case Postale 1672\
+
       CH-1211 Genève 1
+
+
+      Author in charge: Andreas Hirblinger
   disclaimer:
     heading: Disclaimer
     text: >-
