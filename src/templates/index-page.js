@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import ReactMarkdown from 'react-markdown'
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
+
 
 import Layout from '../components/Layout'
 import Activities from '../components/Activities'
@@ -43,10 +45,10 @@ export const IndexPageTemplate = ({
         <div className="columns">
           <div className="column is-two-thirds">
             <h2>{about.heading}</h2>
-            <ReactMarkdown source={about.description} />
+            <ReactMarkdown parserOptions={{ commonmark: true }} source={about.description} />
           </div>
           <div className="column">
-            <ReactMarkdown source={about.partners} />
+            <ReactMarkdown parserOptions={{ commonmark: true }} source={about.partners} />
           </div>
         </div>
       </div>
@@ -67,8 +69,11 @@ export const IndexPageTemplate = ({
           <div className="column">
             <h2>{updates.headingTwitter}</h2>
             <div className="twitterFeed">
-              <a class="twitter-timeline" data-width="300" data-height="500" data-dnt="true" href="https://twitter.com/hirblinger?ref_src=twsrc%5Etfw">Tweets by hirblinger</a>
-              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <TwitterTimelineEmbed
+                sourceType="profile"
+                screenName="saurabhnemade"
+                options={{height: 400}}
+              />
             </div>
           </div>
         </div>

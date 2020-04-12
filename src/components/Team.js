@@ -23,13 +23,11 @@ const TeamGrid = ({ gridItems }) => (
               <Icon path={mdiTwitter} size="1em" />
             </a>
           :""}
-          {!!(item.linkedIn)?
-            <a href={`https://linkedin.com/@${item.linkedIn}`} target="_blank" rel="noopener noreferrer">
+          {!!(item.linkedin)?
+            <a href={`https://linkedin.com/@${item.linkedin}`} target="_blank" rel="noopener noreferrer">
               <Icon path={mdiLinkedin} size="1em" />
             </a>
           :""}
-          {item.linkedIn}
-
         </p>
       </div>
     ))}
@@ -43,7 +41,7 @@ TeamGrid.propTypes = {
       name: PropTypes.string,
       bio: PropTypes.string,
       twitter: PropTypes.string,
-      linkedIn: PropTypes.string,
+      linkedin: PropTypes.string,
     })
   ),
 }

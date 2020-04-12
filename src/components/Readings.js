@@ -8,7 +8,7 @@ const ReadingsList = ({ gridItems }) => (
       <div key={item.tag} className="listItem">
         <p className="author">{item.author}</p>
         <h3>{item.title}</h3>
-        <ReactMarkdown source={item.text} />
+        <ReactMarkdown parserOptions={{ commonmark: true }} source={item.text} />
       </div>
     ))}
   </div>
