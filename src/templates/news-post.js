@@ -1,32 +1,51 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
+import bg_hero from '../img/backgrounds/bg_hero.png'
+import bg_title from '../img/backgrounds/bg_title.png'
+
 export const NewsPostTemplate = ({
   content,
   contentComponent,
   title,
   helmet,
+  author,
+  date
 }) => {
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
-      {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <PostContent content={content} />
+    <Fragment>
+      <section
+        className="full-width-image-container" id="pageHeader"
+        style={{backgroundImage: `url(${bg_hero})`}}
+      >
+        <div className="container">
+          <h1
+            style={{backgroundImage: `url(${bg_title})`}}
+          >{title}</h1>
+        </div>
+      </section>
+
+      <section className="section">
+        {helmet || ''}
+        <div className="container content">
+          <div className="columns">
+            <div className="column postMeta">
+              <p>Published: {date}</p>
+              <p>Author: {author}</p>
+            </div>
+            <div className="column is-8 is-offset-1">
+              <PostContent content={content} />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </Fragment>
   )
 }
 
@@ -46,9 +65,8 @@ const NewsPost = ({ data }) => {
       <NewsPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | Updates">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
@@ -57,6 +75,8 @@ const NewsPost = ({ data }) => {
           </Helmet>
         }
         title={post.frontmatter.title}
+        date={post.frontmatter.date}
+        author={post.frontmatter.author}
       />
     </Layout>
   )
@@ -76,8 +96,9 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD MMMM YYYY")
         title
+        author
       }
     }
   }

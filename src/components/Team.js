@@ -5,7 +5,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import Icon from '@mdi/react';
 import {
   mdiTwitter,
-  mdiLinkedIn
+  mdiLinkedin
   } from '@mdi/js'
 
 const TeamGrid = ({ gridItems }) => (
@@ -19,13 +19,13 @@ const TeamGrid = ({ gridItems }) => (
         <p className="bio">{item.bio}</p>
         <p className="socials">
           {!!(item.twitter)?
-            <a href={`https://twitter.com/@${item.twitter}`} target="_blank">
+            <a href={`https://twitter.com/@${item.twitter}`} target="_blank" rel="noopener noreferrer">
               <Icon path={mdiTwitter} size="1em" />
             </a>
           :""}
           {!!(item.linkedIn)?
-            <a href={`https://linkedin.com/@${item.linkedIn}`} target="_blank">
-              <Icon path={mdiLinkedIn} size="1em" />
+            <a href={`https://linkedin.com/@${item.linkedIn}`} target="_blank" rel="noopener noreferrer">
+              <Icon path={mdiLinkedin} size="1em" />
             </a>
           :""}
           {item.linkedIn}

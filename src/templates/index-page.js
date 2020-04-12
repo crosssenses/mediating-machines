@@ -8,7 +8,7 @@ import Activities from '../components/Activities'
 import Team from '../components/Team'
 import Readings from '../components/Readings'
 import Initiatives from '../components/Readings'
-import UpdatesFeed from '../components/UpdatesFeed'
+import NewsFeed from '../components/NewsFeed'
 
 import bg_hero from '../img/backgrounds/bg_hero.png'
 import bg_title from '../img/backgrounds/bg_title.png'
@@ -62,7 +62,7 @@ export const IndexPageTemplate = ({
         <div className="columns">
           <div className="column is-two-thirds">
             <h2>{updates.headingUpdates}</h2>
-            <UpdatesFeed />
+            <NewsFeed />
           </div>
           <div className="column">
             <h2>{updates.headingTwitter}</h2>

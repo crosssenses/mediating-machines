@@ -3,16 +3,16 @@ import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 //import PreviewCompatibleImage from './PreviewCompatibleImage'
 
-class UpdatesFeed extends React.Component {
+class NewsFeed extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="newsList">
+      <div className="newsList columns is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="listItem" key={post.id}>
+            <div className="listItem column is-half" key={post.id}>
               <p className="date">{post.frontmatter.date}</p>
               <Link to={post.fields.slug}>
                 <h3>{post.frontmatter.title}</h3>
@@ -28,7 +28,7 @@ class UpdatesFeed extends React.Component {
   }
 }
 
-UpdatesFeed.propTypes = {
+NewsFeed.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -39,7 +39,7 @@ UpdatesFeed.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-      query UpdatesFeedQuery {
+      query NewsFeedQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "news-post" } } }
@@ -54,13 +54,13 @@ export default () => (
               frontmatter {
                 title
                 templateKey
-                date(formatString: "MMMM DD, YYYY")
+                date(formatString: "DD MMMM YYYY")
               }
             }
           }
         }
       }
     `}
-    render={(data, count) => <UpdatesFeed data={data} count={count} />}
+    render={(data, count) => <NewsFeed data={data} count={count} />}
   />
 )
