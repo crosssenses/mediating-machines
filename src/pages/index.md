@@ -194,18 +194,18 @@ footer:
   disclaimer:
     heading: Disclaimer
     text: >-
-      Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-      laying out print, graphic or web designs. The passage is attributed to an
-      unknown typesetter in the 15th century who is thought to have scrambled
-      parts of Cicero’s De Finibus Bonorum et Malorum for use in a type specimen
-      book.
+      This website is provided by the Graduate Institute of International and
+      Development Studies, Geneva. A full disclaimer can be found on [the
+      institut's
+      website](https://graduateinstitute.ch/privacy_policy#Disclaimer).
+
+
+      All content – unless otherwise noted – is published under CC-BY-SA 4.0
   privacy:
     text: >-
-      Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-      laying out print, graphic or web designs. The passage is attributed to an
-      unknown typesetter in the 15th century who is thought to have scrambled
-      parts of Cicero’s De Finibus Bonorum et Malorum for use in a type specimen
-      book.
+      Please refer to the institute's [privacy
+      policy](https://graduateinstitute.ch/privacy_policy#Privacy%20policy) for
+      further information on the use and storage of your personal data.
     heading: Privacy policy
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
