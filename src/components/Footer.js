@@ -37,15 +37,15 @@ class Footer extends React.Component {
           <div className="columns">
             <div className="column">
               <h3>{data.imprint.heading}</h3>
-              <ReactMarkdown source={data.imprint.text} />
+              <ReactMarkdown parserOptions={{ commonmark: true }} source={data.imprint.text} />
             </div>
              <div className="column">
               <h3>{data.disclaimer.heading}</h3>
-              <ReactMarkdown source={data.disclaimer.text} />
+              <ReactMarkdown parserOptions={{ commonmark: true }} source={data.disclaimer.text} />
             </div>
             <div className="column">
               <h3>{data.privacy.heading}</h3>
-              <ReactMarkdown source={data.privacy.text} />
+              <ReactMarkdown parserOptions={{ commonmark: true }} source={data.privacy.text} />
             </div>
           </div>
         </div>
