@@ -227,7 +227,7 @@ team:
         technologies in argumentation. 
       twitter: ''
       linkedin: ''
-      image: /img/dummy-landscape-400x225-2x.png
+      image: /img/gregor.png
     - name: Tamara Mchedlidze
       bio: >-
         Dr. Tamara Mchedlidze is an expert in graph algorithms and network
