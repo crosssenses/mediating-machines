@@ -227,7 +227,7 @@ team:
         technologies in argumentation. 
       twitter: ''
       linkedin: ''
-      image: /img/dummy-landscape-400x225-2x.png
+      image: /img/gregor.png
     - name: Tamara Mchedlidze
       bio: >-
         Dr. Tamara Mchedlidze is an expert in graph algorithms and network
@@ -255,7 +255,7 @@ team:
         Prof. Stefan Conrad has expertise in machine learning and natural
         language processing, with a particular focus on argument mining of
         online participatory processes.
-      image: /img/dummy-landscape-400x225-2x.png
+      image: /img/stefan.png
     - name: Alexey Pak
       bio: >-
         Dr. Alexey Pak is an established researcher with a background in
