@@ -147,9 +147,9 @@ about:
     digital data. To this end, the project builds on recent advances in
     text-mining of online participation processes.
   partners: >-
-    This is a project by the Karlsruhe Institute of Technology (KIT), the
-    Graduate Institute of International Development Studies, Geneva (IHEID), the
-    FraunhoferInstitute of Optronics, System Technologies and Image
+    This project is conducted by the Graduate Institute of International
+    Development Studies, Geneva (IHEID), the Karlsruhe Institute of Technology
+    (KIT), the FraunhoferInstitute of Optronics, System Technologies and Image
     Exploitation(IOSB), Universität Düsseldorf and SwissPeace.
 
 
@@ -157,10 +157,6 @@ about:
     Future
     Programme](https://www.volkswagenstiftung.de/en/funding/our-funding-portfolio-at-a-glance/artificial-intelligence-and-the-society-of-the-future)of
     the Volkswagen Foundation.
-
-
-    For inquiries concerning the project or requests for collaboration, please
-    contact us at: Email
 main:
   heading: Great coffee with no compromises
   description: >
