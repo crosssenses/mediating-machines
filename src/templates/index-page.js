@@ -43,11 +43,11 @@ export const IndexPageTemplate = ({
     <section className="section" id="about">
       <div className="container">
         <div className="columns">
-          <div className="column is-two-thirds">
+          <div className="column is-7">
             <h2>{about.heading}</h2>
             <ReactMarkdown parserOptions={{ commonmark: true }} source={about.description} />
           </div>
-          <div className="column">
+          <div className="column is-offset-1">
             <ReactMarkdown parserOptions={{ commonmark: true }} source={about.partners} />
           </div>
         </div>
@@ -62,11 +62,11 @@ export const IndexPageTemplate = ({
     <section className="section" id="updates">
       <div className="container">
         <div className="columns">
-          <div className="column is-two-thirds">
+          <div className="column is-7">
             <h2>{updates.headingUpdates}</h2>
             <NewsFeed />
           </div>
-          <div className="column">
+          <div className="column is-offset-1">
             <h2>{updates.headingTwitter}</h2>
             <div className="twitterFeed">
               <TwitterTimelineEmbed
