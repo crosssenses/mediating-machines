@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -61,19 +62,19 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-end has-text-centered">
-              <Link className="navbar-item" to="#about">
+              <Link className="navbar-item" smooth={true} offset={-100} to="about">
                 About
               </Link>
-              <Link className="navbar-item" to="#activities">
+              <Link className="navbar-item" smooth={true} offset={-100} to="activities">
                 Activities
               </Link>
-              <Link className="navbar-item" to="#updates">
+              <Link className="navbar-item" smooth={true} offset={-100} to="updates">
                 Updates
               </Link>
-              <Link className="navbar-item" to="#team">
+              <Link className="navbar-item" smooth={true} offset={-100} to="team">
                 Team
               </Link>
-              <Link className="navbar-item" to="#resources">
+              <Link className="navbar-item" smooth={true} offset={-100} to="resources">
                 Resources
               </Link>
             </div>
