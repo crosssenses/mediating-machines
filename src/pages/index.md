@@ -1,7 +1,45 @@
 ---
 templateKey: index-page
+title: Mediating machines
 heading: Mediating machines
 subheading: Opportunities and Challenges of Artificial Intelligence (AI) in Peacemaking
+activities:
+  workstreams:
+    - tag: Workstream 1
+      title: Mediator's Needs and Ecosystems
+      description: >-
+        The team will analyze the practical needs and potential strategic
+        purposes of AI in mediation support, as well as the organizational and
+        technological ecosystems in which AI tools could be embedded. We will
+        examine existing efforts to create AI applications for mediators and
+        explore how argument data could be used by mediators to assess dynamics
+        of negotiation. 
+      image: /img/noun_magnifying_3142985.svg
+      icon: /img/mask-group-3-2x.png
+    - tag: Workstream 2
+      title: Data and Methods
+      description: >-
+        The team will discuss  the methodological and data requirements of
+        AI-supported argument analysis. We will look at options for transparent
+        and explainable  AI and related questions of inference methods. The team
+        will also identify and analyze various data sources for
+        machine-supported argument analysis, including data derived from social
+        media and other digital inclusion efforts.
+      image: /img/noun_coding_2512425.svg
+      icon: /img/mask-group-2-2x.png
+    - tag: Workstream 3
+      title: Output Visualisation
+      description: >-
+        The team will identify data visualization techniques that can help 
+        integrate AI outputs into  mediator’s workflows and decision-making
+        processes. This includes  geographic visualization and graph-based
+        techniques  graph-based techniques. We will also explore the prospects
+        of creating visual data mining tools that present multiple perspectives
+        on the data through several visualization styles and interactive data
+        analysis.
+      image: /img/noun_network_195994.png
+      icon: /img/mask-group-1-2x.png
+  heading: Project milestones
 resources:
   background-readings:
     heading: 'Background readings '
@@ -50,7 +88,7 @@ updates:
   twitter-account: '#'
   headingUpdates: Project Updates
   headingTwitter: Follow us on twitter
-  twitterAccount: '#'
+  twitterAccount: '@hirblinger'
 intro:
   blurbs:
     - image: /img/noun_magnifying_3142985.svg
@@ -81,7 +119,6 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
-title: Mediating machines
 about:
   heading: About the project
   description: >-
@@ -124,43 +161,6 @@ about:
 
     For inquiries concerning the project or requests for collaboration, please
     contact us at: Email
-activities:
-  workstreams:
-    - tag: Workstream 1
-      title: Needs and Ecosystems Analysis
-      description: >-
-        The team will analyze the practical needs and potential strategic
-        purposes of AI in mediation support, as well as the organizational and
-        technological ecosystems in which AI tools could be embedded. We will
-        examine existing efforts to create AI applications for mediators and
-        explore how argument data could be used by mediators to assess dynamics
-        of negotiation. 
-      image: /img/noun_magnifying_3142985.svg
-      icon: /img/mask-group-3-2x.png
-    - tag: Workstream 2
-      title: Data and Methods
-      description: >-
-        The team will discuss  the methodological and data requirements of
-        AI-supported argument analysis. We will look at options for transparent
-        and explainable  AI and related questions of inference methods. The team
-        will also identify and analyze various data sources for
-        machine-supported argument analysis, including data derived from social
-        media and other digital inclusion efforts.
-      image: /img/noun_coding_2512425.svg
-      icon: /img/mask-group-2-2x.png
-    - tag: Workstream 3
-      title: Output Visualisation
-      description: >-
-        The team will identify data visualization techniques that can help 
-        integrate AI outputs into  mediator’s workflows and decision-making
-        processes. This includes  geographic visualization and graph-based
-        techniques  graph-based techniques. We will also explore the prospects
-        of creating visual data mining tools that present multiple perspectives
-        on the data through several visualization styles and interactive data
-        analysis.
-      image: /img/noun_network_195994.png
-      icon: /img/mask-group-1-2x.png
-  heading: Project milestones
 main:
   heading: Great coffee with no compromises
   description: >
@@ -178,40 +178,6 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 image: /img/home-jumbotron.jpg
-footer:
-  imprint:
-    heading: Imprint
-    text: >-
-      [Centre on Conflict, Development & Peacebuilding
-      (CCDP)](https://graduateinstitute.ch/ccdp)\
-
-      Chemin Eugène-Rigot 2A, Case Postale 1672\
-
-      CH-1211 Genève 1
-
-
-      Author in charge: Andreas Hirblinger
-  disclaimer:
-    heading: Disclaimer
-    text: >-
-      This website is provided by the Graduate Institute of International and
-      Development Studies, Geneva. A full disclaimer can be found on [the
-      institut's
-      website](https://graduateinstitute.ch/privacy_policy#Disclaimer).
-
-
-      All content – unless otherwise noted – is published under CC-BY-SA 4.0
-  privacy:
-    text: >-
-      Please refer to the institute's [privacy
-      policy](https://graduateinstitute.ch/privacy_policy#Privacy%20policy) for
-      further information on the use and storage of your personal data.
-    heading: Privacy policy
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
 team:
   heading: The team
   team-members:
@@ -279,4 +245,38 @@ team:
     - bio: "Ahmed Eleiba is the senior program officer for Mediation at SwissPeace. He also represents SwissPeace in the CyberMediation initiative, which focuses on the role of social media and digital technologies in peace mediation.\_"
       name: Ahmed Eleiba
       image: /img/ahmed.png
+footer:
+  imprint:
+    heading: Imprint
+    text: >-
+      [Centre on Conflict, Development & Peacebuilding
+      (CCDP)](https://graduateinstitute.ch/ccdp)\
+
+      Chemin Eugène-Rigot 2A, Case Postale 1672\
+
+      CH-1211 Genève 1
+
+
+      Author in charge: Andreas Hirblinger
+  disclaimer:
+    heading: Disclaimer
+    text: >-
+      This website is provided by the Graduate Institute of International and
+      Development Studies, Geneva. A full disclaimer can be found on [the
+      institut's
+      website](https://graduateinstitute.ch/privacy_policy#Disclaimer).
+
+
+      All content – unless otherwise noted – is published under CC-BY-SA 4.0
+  privacy:
+    text: >-
+      Please refer to the institute's [privacy
+      policy](https://graduateinstitute.ch/privacy_policy#Privacy%20policy) for
+      further information on the use and storage of your personal data.
+    heading: Privacy policy
+description: >-
+  Kaldi is the ultimate spot for coffee lovers who want to learn about their
+  java’s origin and support the farmers that grew it. We take coffee production,
+  roasting and brewing seriously and we’re glad to pass that knowledge to
+  anyone.
 ---
