@@ -126,8 +126,21 @@ resources:
   relatedInitiatives:
     heading: Related initiatives
     initiatives:
-      - title: '#'
-        text: '#'
+      - title: UN Peacemaker Digital Toolkit
+        text: >-
+          Online resource on digital technologies, provided by the United
+          Nations Mediation Support Unit (MSU).
+
+
+          https://peacemaker.un.org/digitaltoolkit
+      - title: Digital Inclusion in Peacemaking
+        text: >-
+          Research project conducted at the Center on Conflict, Development and
+          Peacebuilding (CCDP), Graduate Institute of International and
+          Development Studies, 2020. 
+
+
+          http://digitalpeacemaking.com
         moreLink: '#'
 mainpitch:
   title: Why Kaldi
@@ -230,7 +243,7 @@ main:
     image: /img/products-grid1.jpg
 image: /img/home-jumbotron.jpg
 team:
-  heading: The team
+  heading: Research team
   team-members:
     - name: Andreas Hirblinger
       bio: "Dr. Andreas Hirblinger has extensive experience in international peace mediation. He currently conducts \nresearch on digital inclusion \nand the role of technology in peace processes.\_"
