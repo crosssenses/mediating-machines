@@ -89,7 +89,7 @@ resources:
           Argumentation*, edited by Elizabeth Black, Sanjay Modgil, and Nir
           Oren, 9524:163–76. Lecture Notes in Computer Science. Cham: Springer
           International
-          Publishing.](<https://doi.org/10.1007/978-3-319-28460-6_10>.)
+          Publishing.](<https://doi.org/10.1007/978-3-319-28460-6_10>)
       - author: 'Betz, Gregor, Tamara Mchedlidze, et al. '
         title: >-
           Applying argumentation to structure and visualize multi-dimensional
@@ -103,7 +103,7 @@ resources:
           [Betz, Gregor, Michael Hamann, Tamara Mchedlidze, and Sophie von
           Schmettow. 2019. “Applying Argumentation to Structure and Visualize
           Multi-Dimensional Opinion Spaces.”*Argument & Computation*10 (1):
-          23–40.](<https://doi.org/10.3233/AAC-181004>.)
+          23–40.](<https://doi.org/10.3233/AAC-181004>)
       - author: 'Conrad, Stephan et al. '
         title: >-
           Text Mining für Online-Partizipationsverfahren: Die Notwendigkeit
@@ -120,9 +120,6 @@ resources:
           maschinell unterstützten Auswertung.”*HMD Praxis der
           Wirtschaftsinformatik*54 (4):
           544–62.](<https://doi.org/10.1365/s40702-017-0321-6>.)
-
-
-          [](<https://doi.org/10.1365/s40702-017-0321-6>.)
   relatedInitiatives:
     heading: Related initiatives
     initiatives:
