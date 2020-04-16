@@ -190,7 +190,7 @@ intro:
 about:
   heading: About the project
   description: >-
-    In today’s  technologized world, efforts to end armed conflict through
+    In today’s technologized world, efforts to end armed conflict through
     mediation are increasingly shaped by digital technologies. While peacemaking
     traditionally has been considered a human-centered activity, negotiations
     are often supplemented with online activities. Social media has come to
