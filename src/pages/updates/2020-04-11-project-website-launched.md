@@ -1,8 +1,8 @@
 ---
 templateKey: news-post
-title: Project website launched
+title: Project website launched!!
 author: Andreas Hirblinger
-date: 2020-04-11T12:13:09.416Z
+date: 2020-04-17T12:13:09.416Z
 featuredimage: /img/bruno-nascimento-phigyugqpvu-unsplash.jpg
 tags:
   - test
@@ -10,12 +10,4 @@ tags:
   - '2'
   - '3'
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam purus sit amet luctus venenatis. Pretium aenean pharetra magna ac placerat vestibulum lectus. Eleifend mi in nulla posuere. Non enim praesent elementum facilisis leo vel. Nullam non nisi est sit amet facilisis. Enim neque volutpat ac tincidunt vitae semper quis lectus nulla. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean. Id semper risus in hendrerit gravida rutrum. Risus in hendrerit gravida rutrum quisque non.
-
-Leo integer malesuada nunc vel risus commodo viverra maecenas accumsan. Cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque. Praesent tristique magna sit amet purus gravida. Lectus urna duis convallis convallis tellus id. Eros in cursus turpis massa tincidunt dui ut. Pretium lectus quam id leo in vitae turpis. Consectetur purus ut faucibus pulvinar elementum integer enim. Enim ut tellus elementum sagittis vitae et leo. Lorem ipsum dolor sit amet consectetur. Diam phasellus vestibulum lorem sed risus. Bibendum at varius vel pharetra vel turpis nunc eget lorem. Proin nibh nisl condimentum id venenatis a condimentum vitae sapien. Eu lobortis elementum nibh tellus molestie nunc non blandit. Augue interdum velit euismod in pellentesque massa. Non sodales neque sodales ut etiam sit amet nisl. Elit duis tristique sollicitudin nibh sit. Dolor purus non enim praesent elementum facilisis leo. Viverra maecenas accumsan lacus vel facilisis. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus.
-
-Integer vitae justo eget magna fermentum. Viverra orci sagittis eu volutpat odio facilisis mauris sit amet. Habitant morbi tristique senectus et netus et malesuada. Massa sapien faucibus et molestie ac feugiat sed lectus vestibulum. Tortor posuere ac ut consequat semper viverra. Id nibh tortor id aliquet lectus proin nibh. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Iaculis at erat pellentesque adipiscing commodo elit. Massa eget egestas purus viverra accumsan in nisl. Aliquam sem fringilla ut morbi tincidunt. Pretium vulputate sapien nec sagittis. Ornare suspendisse sed nisi lacus sed viverra tellus. In hendrerit gravida rutrum quisque non tellus orci. Ipsum suspendisse ultrices gravida dictum. Sit amet nulla facilisi morbi tempus iaculis urna id volutpat.
-
-Urna nunc id cursus metus. Faucibus nisl tincidunt eget nullam non nisi est sit. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Proin sagittis nisl rhoncus mattis rhoncus urna. Tincidunt praesent semper feugiat nibh sed. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. In egestas erat imperdiet sed euismod. Urna nunc id cursus metus aliquam eleifend. Vitae auctor eu augue ut lectus arcu. Condimentum mattis pellentesque id nibh tortor id aliquet. Ante in nibh mauris cursus mattis molestie. Sed libero enim sed faucibus turpis in eu mi bibendum. Condimentum id venenatis a condimentum.
-
-Enim nulla aliquet porttitor lacus luctus. Nisl condimentum id venenatis a condimentum vitae. Amet mauris commodo quis imperdiet massa tincidunt. Tellus id interdum velit laoreet id donec ultrices tincidunt arcu. Sed velit dignissim sodales ut eu sem integer vitae justo. Dictumst quisque sagittis purus sit amet volutpat consequat mauris. Eget nunc scelerisque viverra mauris in aliquam sem. Senectus et netus et malesuada fames ac. Cras sed felis eget velit aliquet sagittis id consectetur. Ut aliquam purus sit amet luctus venenatis lectus magna. Donec adipiscing tristique risus nec feugiat. Quam vulputate dignissim suspendisse in est. Faucibus interdum posuere lorem ipsum. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis.
+We are happy to see our project website online! In the next weeks and months, we will use this space to share important updates and insights, as well as announce opportunities for collaboration!
