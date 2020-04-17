@@ -71,7 +71,7 @@ export const IndexPageTemplate = ({
             <div className="twitterFeed">
               <TwitterTimelineEmbed
                 sourceType="profile"
-                screenName="saurabhnemade"
+                screenName={updates.twitterAccount}
                 options={{height: 400}}
               />
             </div>
