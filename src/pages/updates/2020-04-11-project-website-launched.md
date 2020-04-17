@@ -10,4 +10,4 @@ tags:
   - '2'
   - '3'
 ---
-We are happy to have see our project website online! In the next weeks and months, we will use this space to share important updates and insights, as well as announce opportunities for collaboration!
+We are happy to see our project website online! In the next weeks and months, we will use this space to share important updates and insights, as well as announce opportunities for collaboration!
