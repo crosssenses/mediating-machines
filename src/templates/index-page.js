@@ -43,11 +43,11 @@ export const IndexPageTemplate = ({
     <section className="section" id="about">
       <div className="container">
         <div className="columns">
-          <div className="column is-7">
+          <div className="column is-two-thirds">
             <h2>{about.heading}</h2>
             <ReactMarkdown parserOptions={{ commonmark: true }} source={about.description} />
           </div>
-          <div className="column is-offset-1">
+          <div className="column">
             <ReactMarkdown parserOptions={{ commonmark: true }} source={about.partners} />
           </div>
         </div>
@@ -62,11 +62,11 @@ export const IndexPageTemplate = ({
     <section className="section" id="updates">
       <div className="container">
         <div className="columns">
-          <div className="column is-7">
+          <div className="column is-two-thirds">
             <h2>{updates.headingUpdates}</h2>
             <NewsFeed />
           </div>
-          <div className="column is-offset-1">
+          <div className="column">
             <h2>{updates.headingTwitter}</h2>
             <div className="twitterFeed">
               <TwitterTimelineEmbed
@@ -88,11 +88,11 @@ export const IndexPageTemplate = ({
     <section className="section" id="resources">
       <div className="container">
         <div className="columns">
-          <div className="column is-7">
+          <div className="column is-two-thirds">
             <h2>{resources.backgroundReadings.heading}</h2>
             <Readings gridItems={resources.backgroundReadings.readings} />
           </div>
-          <div className="column is-offset-1">
+          <div className="column">
             <h2>{resources.relatedInitiatives.heading}</h2>
             <Initiatives gridItems={resources.relatedInitiatives.initiatives} />
           </div>
