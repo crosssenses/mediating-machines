@@ -88,11 +88,11 @@ export const IndexPageTemplate = ({
     <section className="section" id="resources">
       <div className="container">
         <div className="columns">
-          <div className="column is-two-thirds">
+          <div className="column is-7">
             <h2>{resources.backgroundReadings.heading}</h2>
             <Readings gridItems={resources.backgroundReadings.readings} />
           </div>
-          <div className="column">
+          <div className="column is-offset-1">
             <h2>{resources.relatedInitiatives.heading}</h2>
             <Initiatives gridItems={resources.relatedInitiatives.initiatives} />
           </div>

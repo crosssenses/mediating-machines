@@ -1,12 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import ReactMarkdown from 'react-markdown'
 
 const InitiativesList = ({ gridItems }) => (
   <div className="initiative">
     {gridItems.map(item => (
       <div key={item.tag} className="column">
         <h3>{item.title}</h3>
-        <p>{item.text}</p>
+        <ReactMarkdown parserOptions={{ commonmark: true }} source={item.text} />
       </div>
     ))}
   </div>
