@@ -115,7 +115,7 @@ updates:
   twitter-account: '#'
   headingUpdates: Project Updates
   headingTwitter: Follow us on twitter
-  twitterAccount: '@hirblinger'
+  twitterAccount: hirblinger
 intro:
   blurbs:
     - image: /img/noun_magnifying_3142985.svg
