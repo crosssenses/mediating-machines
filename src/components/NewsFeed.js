@@ -12,7 +12,7 @@ class NewsFeed extends React.Component {
       <div className="newsList columns is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="listItem column is-half" key={post.id}>
+            <div className="listItem column is-one-third" key={post.id}>
               <p className="date">{post.frontmatter.date}</p>
               <Link to={post.fields.slug}>
                 <h3>{post.frontmatter.title}</h3>

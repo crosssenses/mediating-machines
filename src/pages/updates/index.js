@@ -1,5 +1,7 @@
 
 import React from 'react'
+import { Link } from 'gatsby'
+
 import Layout from '../../components/Layout'
 import NewsFeed from '../../components/NewsFeed'
 
@@ -24,7 +26,9 @@ export default class BlogIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <NewsFeed />
+            <Link to="/" className="backHome">← Go back</Link>
           </div>
+
         </section>
       </Layout>
     )

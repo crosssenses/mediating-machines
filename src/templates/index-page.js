@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import ReactMarkdown from 'react-markdown'
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
@@ -65,6 +65,7 @@ export const IndexPageTemplate = ({
           <div className="column is-two-thirds">
             <h2>{updates.headingUpdates}</h2>
             <NewsFeed />
+            <Link to="/updates" className="allUpdates">→ View all updates</Link>
           </div>
           <div className="column">
             <h2>{updates.headingTwitter}</h2>
