@@ -10,31 +10,96 @@ resources:
   backgroundReadings:
     heading: Background readings
     readings:
-      - author: Max Mustermann
-        title: Looking for beta testers
+      - author: 'Hirblinger, Andreas'
+        title: Designing Digital Inclusion in Peacemaking
         text: >-
-          Efforts to end armed conflict through mediation are increasingly
-          shaped by Digital Technologies. While peacemaking is traditionally
-          understood as a human-centered activity, negotiations are increasingly
-          supplemented with online activities.\
+          Arguments can be collected and analyzed as part of inclusive
+          peacemaking efforts. Digital Technologies play a key role in
+          facilitating such processes. The most important insights from the
+          "Designing Digital Inclusion" Project, conducted at the Graduate
+          Institute of International Development Studies. 
 
-          [Contact us, if you would like to participate.](#)
-      - author: 'Karla Kolumna, Benjamin Blümchen'
-        title: Working paper on Methodology
+
+          [Hirblinger, Andreas (2020). “Designing Digital Inclusion in
+          Peacemaking: Summary of Findings”, Geneva:Graduate Institute for
+          International and Development
+          Studies.](https://graduateinstitute.ch/sites/default/files/2020-02/Digital%20Inclusion%20in%20Peacemaking%20Project%20Summary_0.pdf)
+      - author: 'Höhne, Katharina'
+        title: >-
+          Mediation and Artificial Intelligence:Notes on the Future of
+          International Conflict Resolution
         text: >-
-          Efforts to end armed conflict through mediation are increasingly
-          shaped by Digital Technologies. While peacemaking is traditionally
-          understood as a human-centered activity, negotiations are increasingly
-          supplemented with online activities.\
+          Artificial Intelligence plays an increasing role in Cybermediation and
+          Digital Peacemaking. This report by the DiploFoundation provides an
+          overview of the current debate on the use of Artificial Intelligence
+          in Peace Mediation. 
 
-          [\
 
-          Read our working paper and give us feedback.](#)
+          [Höhne, Katharina. 2019. “Mediation and Artificial Intelligence: Notes
+          on the Future of International Conflict Resolution.” Geneva:
+          DiploFoundation.](https://www.diplomacy.edu/sites/default/files/Mediation_and_AI.pdf)
+      - author: 'Lippi, Marco and Paolo Torlinie'
+        title: 'Argument Mining: A Machine Learning Perspective'
+        text: >-
+          Understanding arguments often requires the analysis of large amounts
+          of text data. This paper dicusses options, problems and challenges for
+          machine-learning supported argument mining. 
+
+
+          [Lippi, Marco, and Paolo Torroni. 2015. “Argument Mining: A Machine
+          Learning Perspective.” In *Theory and Applications of Formal
+          Argumentation*, edited by Elizabeth Black, Sanjay Modgil, and Nir
+          Oren, 9524:163–76. Lecture Notes in Computer Science. Cham: Springer
+          International
+          Publishing.](<https://doi.org/10.1007/978-3-319-28460-6_10>)
+      - author: 'Betz, Gregor, Tamara Mchedlidze, et al. '
+        title: >-
+          Applying argumentation to structure and visualize multi-dimensional
+          opinion spaces
+        text: >-
+          Visualization is critical for understanding arguments. This paper
+          discusses options to visualize large scale, multi-dimensional opinion
+          spaces, based on formal argumentation theory. 
+
+
+          [Betz, Gregor, Michael Hamann, Tamara Mchedlidze, and Sophie von
+          Schmettow. 2019. “Applying Argumentation to Structure and Visualize
+          Multi-Dimensional Opinion Spaces.”*Argument & Computation* 10 (1):
+          23–40.](https://doi.org/10.3233/AAC-181004)
+      - author: 'Conrad, Stephan et al. '
+        title: >-
+          Text Mining für Online-Partizipationsverfahren: Die Notwendigkeit
+          einer maschinell unterstützten Auswertung
+        text: >-
+          Text mining and argument mining have been sucessfully explored in
+          other participatory political processes, for instance in the context
+          of large infrastructure projects. This article summarises important
+          lessons learned from Germany. 
+
+
+          [Liebeck, Matthias, Katharina Esau, and Stefan Conrad. 2017. “Text
+          Mining für Online-Partizipationsverfahren: Die Notwendigkeit einer
+          maschinell unterstützten Auswertung.” *HMD Praxis der
+          Wirtschaftsinformatik* 54 (4):
+          544–62.](https://doi.org/10.1365/s40702-017-0321-6)
   relatedInitiatives:
     heading: Related initiatives
     initiatives:
-      - title: '#'
-        text: '#'
+      - title: UN Peacemaker Digital Toolkit
+        text: >-
+          Online resource on digital technologies, provided by the United
+          Nations Mediation Support Unit (MSU).
+
+
+          https://peacemaker.un.org/digitaltoolkit
+      - title: Digital Inclusion in Peacemaking
+        text: >-
+          Research project conducted at the Center on Conflict, Development and
+          Peacebuilding (CCDP), Graduate Institute of International and
+          Development Studies, 2020. 
+
+
+          http://digitalpeacemaking.com
         moreLink: '#'
 mainpitch:
   title: Why Kaldi
@@ -50,7 +115,7 @@ updates:
   twitter-account: '#'
   headingUpdates: Project Updates
   headingTwitter: Follow us on twitter
-  twitterAccount: '#'
+  twitterAccount: '@hirblinger'
 intro:
   blurbs:
     - image: /img/noun_magnifying_3142985.svg
@@ -85,7 +150,7 @@ title: Mediating machines
 about:
   heading: About the project
   description: >-
-    In today’s  technologized world, efforts to end armed conflict through
+    In today’s technologized world, efforts to end armed conflict through
     mediation are increasingly shaped by digital technologies. While peacemaking
     traditionally has been considered a human-centered activity, negotiations
     are often supplemented with online activities. Social media has come to
@@ -110,9 +175,9 @@ about:
     digital data. To this end, the project builds on recent advances in
     text-mining of online participation processes.
   partners: >-
-    This is a project by the Karlsruhe Institute of Technology (KIT), the
-    Graduate Institute of International Development Studies, Geneva (IHEID), the
-    FraunhoferInstitute of Optronics, System Technologies and Image
+    This project is conducted by the Graduate Institute of International
+    Development Studies, Geneva (IHEID), the Karlsruhe Institute of Technology
+    (KIT), the FraunhoferInstitute of Optronics, System Technologies and Image
     Exploitation(IOSB), Universität Düsseldorf and SwissPeace.
 
 
@@ -120,14 +185,10 @@ about:
     Future
     Programme](https://www.volkswagenstiftung.de/en/funding/our-funding-portfolio-at-a-glance/artificial-intelligence-and-the-society-of-the-future)of
     the Volkswagen Foundation.
-
-
-    For inquiries concerning the project or requests for collaboration, please
-    contact us at: Email
 activities:
   workstreams:
     - tag: Workstream 1
-      title: Needs and Ecosystems Analysis
+      title: Mediator's Needs and Ecosystems
       description: >-
         The team will analyze the practical needs and potential strategic
         purposes of AI in mediation support, as well as the organizational and
@@ -213,27 +274,13 @@ description: >-
   roasting and brewing seriously and we’re glad to pass that knowledge to
   anyone.
 team:
-  heading: The team
+  heading: Research team
   team-members:
     - name: Andreas Hirblinger
       bio: "Dr. Andreas Hirblinger has extensive experience in international peace mediation. He currently conducts \nresearch on digital inclusion \nand the role of technology in peace processes.\_"
       twitter: '#'
       linkedin: '#'
   teamMembers:
-    - name: Gregor Betz
-      bio: >-
-        Prof. Gregor Betz specializes in reason and argumentation theory,
-        opinion and argument maps, in addition to the application of digital
-        technologies in argumentation. 
-      twitter: ''
-      linkedin: ''
-      image: /img/gregor.png
-    - name: Tamara Mchedlidze
-      bio: >-
-        Dr. Tamara Mchedlidze is an expert in graph algorithms and network
-        visualization, and has constructed visual representations of online
-        participatory processes. 
-      image: /img/tamara.png
     - name: Andreas Hirblinger
       bio: >-
         Dr. Andreas Hirblinger has extensive experience in international peace
@@ -243,32 +290,6 @@ team:
       twitter: hirblinger
       linkedin: andreas-hirblinger-99697b106
       image: /img/andreas.png
-    - name: David Lanius
-      bio: >-
-        Dr. David Lanius’ areas of expertise include argumentation analysis,
-        argument theory and argumentation reconstruction. He is particularly
-        interested in analyzing the use of alternative facts or “fake news” in
-        populist debates.
-      image: /img/david.png
-    - name: Stefan Conrad
-      bio: >
-        Prof. Stefan Conrad has expertise in machine learning and natural
-        language processing, with a particular focus on argument mining of
-        online participatory processes.
-      image: /img/stefan.png
-    - name: Alexey Pak
-      bio: >-
-        Dr. Alexey Pak is an established researcher with a background in
-        theoretical physics. His areas of expertise include practical machine
-        learning techniques, including ANNs and  Bayesian models.
-      image: /img/alexey.png
-    - name: Michael Färber
-      bio: >-
-        Dr. Michael Färber’s research expertise includes natural language
-        processing, machine learning and semantic web. His current focus is on
-        scholarly data mining, scholarly recommender systems and knowledge
-        graphs.
-      image: /img/michael.png
     - bio: >-
         Prof. Laurent Götschel is the Director of SwissPeace  and professor of
         political science at the University of Basel. He has close ties to the
@@ -279,4 +300,44 @@ team:
     - bio: "Ahmed Eleiba is the senior program officer for Mediation at SwissPeace. He also represents SwissPeace in the CyberMediation initiative, which focuses on the role of social media and digital technologies in peace mediation.\_"
       name: Ahmed Eleiba
       image: /img/ahmed.png
+    - name: Tamara Mchedlidze
+      bio: >-
+        Dr. Tamara Mchedlidze is an expert in graph algorithms and network
+        visualization, and has constructed visual representations of online
+        participatory processes. 
+      image: /img/tamara.png
+    - name: Gregor Betz
+      bio: >-
+        Prof. Gregor Betz specializes in reason and argumentation theory,
+        opinion and argument maps, in addition to the application of digital
+        technologies in argumentation. 
+      twitter: ''
+      linkedin: ''
+      image: /img/gregor.png
+    - name: David Lanius
+      bio: >-
+        Dr. David Lanius’ areas of expertise include argumentation analysis,
+        argument theory and argumentation reconstruction. He is particularly
+        interested in analyzing the use of alternative facts or “fake news” in
+        populist debates.
+      image: /img/david.png
+    - name: Alexey Pak
+      bio: >-
+        Dr. Alexey Pak is an established researcher with a background in
+        theoretical physics. His areas of expertise include practical machine
+        learning techniques, including ANNs and  Bayesian models.
+      image: /img/alexey.png
+    - name: Stefan Conrad
+      bio: >
+        Prof. Stefan Conrad has expertise in machine learning and natural
+        language processing, with a particular focus on argument mining of
+        online participatory processes.
+      image: /img/stefan.png
+    - name: Michael Färber
+      bio: >-
+        Dr. Michael Färber’s research expertise includes natural language
+        processing, machine learning and semantic web. His current focus is on
+        scholarly data mining, scholarly recommender systems and knowledge
+        graphs.
+      image: /img/michael.png
 ---
