@@ -67,10 +67,11 @@ export const IndexPageTemplate = ({
             <NewsFeed />
           </div>
           <div className="column">
-            <h2>{updates.headingTwitter}</h2>
+            <h2>{updates.headingTwitter}{updates.twitterAccount}</h2>
             <div className="twitterFeed">
               <TwitterTimelineEmbed
                 sourceType="profile"
+                screenName="saurabhnemade"
                 screenName={updates.twitterAccount}
                 options={{height: 400}}
               />

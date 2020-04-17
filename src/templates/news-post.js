@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
@@ -41,6 +41,7 @@ export const NewsPostTemplate = ({
             </div>
             <div className="column is-8 is-offset-1">
               <PostContent content={content} />
+              <Link to="/" className="backHome">← Go back</Link>
             </div>
           </div>
         </div>
