@@ -296,7 +296,7 @@ footer:
   disclaimer:
     heading: Disclaimer
     text: >-
-      This website is provided by the Graduate Institute of International and
+      This website is maintained by the Graduate Institute of International and
       Development Studies, Geneva. A full disclaimer can be found on [the
       institut's
       website](https://graduateinstitute.ch/privacy_policy#Disclaimer).
