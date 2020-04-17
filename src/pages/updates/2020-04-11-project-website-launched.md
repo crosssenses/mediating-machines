@@ -2,7 +2,7 @@
 templateKey: news-post
 title: Project website launched!!
 author: Andreas Hirblinger
-date: 2020-04-17T12:13:09.416Z
+date: 2020-04-20T08:15:00.000Z
 featuredimage: /img/bruno-nascimento-phigyugqpvu-unsplash.jpg
 tags:
   - test
