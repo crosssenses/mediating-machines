@@ -1,45 +1,7 @@
 ---
 templateKey: index-page
-title: Mediating machines
 heading: Mediating machines
 subheading: Opportunities and Challenges of Artificial Intelligence (AI) in Peacemaking
-activities:
-  workstreams:
-    - tag: Workstream 1
-      title: Mediator's Needs and Ecosystems
-      description: >-
-        The team will analyze the practical needs and potential strategic
-        purposes of AI in mediation support, as well as the organizational and
-        technological ecosystems in which AI tools could be embedded. We will
-        examine existing efforts to create AI applications for mediators and
-        explore how argument data could be used by mediators to assess dynamics
-        of negotiation. 
-      image: /img/noun_magnifying_3142985.svg
-      icon: /img/mask-group-3-2x.png
-    - tag: Workstream 2
-      title: Data and Methods
-      description: >-
-        The team will discuss  the methodological and data requirements of
-        AI-supported argument analysis. We will look at options for transparent
-        and explainable  AI and related questions of inference methods. The team
-        will also identify and analyze various data sources for
-        machine-supported argument analysis, including data derived from social
-        media and other digital inclusion efforts.
-      image: /img/noun_coding_2512425.svg
-      icon: /img/mask-group-2-2x.png
-    - tag: Workstream 3
-      title: Output Visualisation
-      description: >-
-        The team will identify data visualization techniques that can help 
-        integrate AI outputs into  mediator’s workflows and decision-making
-        processes. This includes  geographic visualization and graph-based
-        techniques  graph-based techniques. We will also explore the prospects
-        of creating visual data mining tools that present multiple perspectives
-        on the data through several visualization styles and interactive data
-        analysis.
-      image: /img/noun_network_195994.png
-      icon: /img/mask-group-1-2x.png
-  heading: Project milestones
 resources:
   background-readings:
     heading: 'Background readings '
@@ -73,9 +35,9 @@ resources:
           in Peace Mediation. 
 
 
-          [Höhne, Katharina. 2019. “Mediation and Artificial Intelligence:Notes
+          [Höhne, Katharina. 2019. “Mediation and Artificial Intelligence: Notes
           on the Future of International Conflict Resolution.” Geneva:
-          DiploFoundation.](<https://www.diplomacy.edu/sites/default/files/Mediation_and_AI.pdf>.)
+          DiploFoundation.](https://www.diplomacy.edu/sites/default/files/Mediation_and_AI.pdf)
       - author: 'Lippi, Marco and Paolo Torlinie'
         title: 'Argument Mining: A Machine Learning Perspective'
         text: >-
@@ -102,8 +64,8 @@ resources:
 
           [Betz, Gregor, Michael Hamann, Tamara Mchedlidze, and Sophie von
           Schmettow. 2019. “Applying Argumentation to Structure and Visualize
-          Multi-Dimensional Opinion Spaces.”*Argument & Computation*10 (1):
-          23–40.](<https://doi.org/10.3233/AAC-181004>)
+          Multi-Dimensional Opinion Spaces.”*Argument & Computation* 10 (1):
+          23–40.](https://doi.org/10.3233/AAC-181004)
       - author: 'Conrad, Stephan et al. '
         title: >-
           Text Mining für Online-Partizipationsverfahren: Die Notwendigkeit
@@ -117,9 +79,9 @@ resources:
 
           [Liebeck, Matthias, Katharina Esau, and Stefan Conrad. 2017. “Text
           Mining für Online-Partizipationsverfahren: Die Notwendigkeit einer
-          maschinell unterstützten Auswertung.”*HMD Praxis der
-          Wirtschaftsinformatik*54 (4):
-          544–62.](<https://doi.org/10.1365/s40702-017-0321-6>.)
+          maschinell unterstützten Auswertung.” *HMD Praxis der
+          Wirtschaftsinformatik* 54 (4):
+          544–62.](https://doi.org/10.1365/s40702-017-0321-6)
   relatedInitiatives:
     heading: Related initiatives
     initiatives:
@@ -184,6 +146,7 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
+title: Mediating machines
 about:
   heading: About the project
   description: >-
@@ -222,6 +185,43 @@ about:
     Future
     Programme](https://www.volkswagenstiftung.de/en/funding/our-funding-portfolio-at-a-glance/artificial-intelligence-and-the-society-of-the-future)of
     the Volkswagen Foundation.
+activities:
+  workstreams:
+    - tag: Workstream 1
+      title: Mediator's Needs and Ecosystems
+      description: >-
+        The team will analyze the practical needs and potential strategic
+        purposes of AI in mediation support, as well as the organizational and
+        technological ecosystems in which AI tools could be embedded. We will
+        examine existing efforts to create AI applications for mediators and
+        explore how argument data could be used by mediators to assess dynamics
+        of negotiation. 
+      image: /img/noun_magnifying_3142985.svg
+      icon: /img/mask-group-3-2x.png
+    - tag: Workstream 2
+      title: Data and Methods
+      description: >-
+        The team will discuss  the methodological and data requirements of
+        AI-supported argument analysis. We will look at options for transparent
+        and explainable  AI and related questions of inference methods. The team
+        will also identify and analyze various data sources for
+        machine-supported argument analysis, including data derived from social
+        media and other digital inclusion efforts.
+      image: /img/noun_coding_2512425.svg
+      icon: /img/mask-group-2-2x.png
+    - tag: Workstream 3
+      title: Output Visualisation
+      description: >-
+        The team will identify data visualization techniques that can help 
+        integrate AI outputs into  mediator’s workflows and decision-making
+        processes. This includes  geographic visualization and graph-based
+        techniques  graph-based techniques. We will also explore the prospects
+        of creating visual data mining tools that present multiple perspectives
+        on the data through several visualization styles and interactive data
+        analysis.
+      image: /img/noun_network_195994.png
+      icon: /img/mask-group-1-2x.png
+  heading: Project milestones
 main:
   heading: Great coffee with no compromises
   description: >
@@ -239,6 +239,40 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 image: /img/home-jumbotron.jpg
+footer:
+  imprint:
+    heading: Imprint
+    text: >-
+      [Centre on Conflict, Development & Peacebuilding
+      (CCDP)](https://graduateinstitute.ch/ccdp)\
+
+      Chemin Eugène-Rigot 2A, Case Postale 1672\
+
+      CH-1211 Genève 1
+
+
+      Author in charge: Andreas Hirblinger
+  disclaimer:
+    heading: Disclaimer
+    text: >-
+      This website is provided by the Graduate Institute of International and
+      Development Studies, Geneva. A full disclaimer can be found on [the
+      institut's
+      website](https://graduateinstitute.ch/privacy_policy#Disclaimer).
+
+
+      All content – unless otherwise noted – is published under CC-BY-SA 4.0
+  privacy:
+    text: >-
+      Please refer to the institute's [privacy
+      policy](https://graduateinstitute.ch/privacy_policy#Privacy%20policy) for
+      further information on the use and storage of your personal data.
+    heading: Privacy policy
+description: >-
+  Kaldi is the ultimate spot for coffee lovers who want to learn about their
+  java’s origin and support the farmers that grew it. We take coffee production,
+  roasting and brewing seriously and we’re glad to pass that knowledge to
+  anyone.
 team:
   heading: Research team
   team-members:
@@ -306,38 +340,4 @@ team:
         scholarly data mining, scholarly recommender systems and knowledge
         graphs.
       image: /img/michael.png
-footer:
-  imprint:
-    heading: Imprint
-    text: >-
-      [Centre on Conflict, Development & Peacebuilding
-      (CCDP)](https://graduateinstitute.ch/ccdp)\
-
-      Chemin Eugène-Rigot 2A, Case Postale 1672\
-
-      CH-1211 Genève 1
-
-
-      Author in charge: Andreas Hirblinger
-  disclaimer:
-    heading: Disclaimer
-    text: >-
-      This website is provided by the Graduate Institute of International and
-      Development Studies, Geneva. A full disclaimer can be found on [the
-      institut's
-      website](https://graduateinstitute.ch/privacy_policy#Disclaimer).
-
-
-      All content – unless otherwise noted – is published under CC-BY-SA 4.0
-  privacy:
-    text: >-
-      Please refer to the institute's [privacy
-      policy](https://graduateinstitute.ch/privacy_policy#Privacy%20policy) for
-      further information on the use and storage of your personal data.
-    heading: Privacy policy
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
 ---
