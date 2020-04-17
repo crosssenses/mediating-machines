@@ -186,7 +186,8 @@ about:
     digital data. To this end, the project builds on recent advances in
     text-mining of online participation processes.
   partners: >-
-    This project is conducted by the Graduate Institute of International
+    This project is conducted by researchers at the Centre on Conflict,
+    Development and Peacebuilding (CCDP),  Graduate Institute of International
     Development Studies, Geneva (IHEID), the Karlsruhe Institute of Technology
     (KIT), the FraunhoferInstitute of Optronics, System Technologies and Image
     Exploitation(IOSB), Universität Düsseldorf and SwissPeace.
@@ -226,7 +227,7 @@ team:
         Dr. Andreas Hirblinger has extensive experience in international peace
         mediation. He conducts research on the role of knowledge production in
         peacebuilding,  digital inclusion and the use of  technology in peace
-        processes. 
+        processes at the CCDP, Graduate Institute, Geneva. 
       twitter: hirblinger
       linkedin: andreas-hirblinger-99697b106
       image: /img/andreas.png
