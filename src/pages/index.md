@@ -52,7 +52,7 @@ resources:
         title: Designing Digital Inclusion in Peacemaking
         text: >-
           Arguments can be collected and analyzed as part of inclusive
-          peacemaking efforts. Digital Technologies play a key role in
+          peacemaking efforts. Digital technologies play a key role in
           facilitating such processes. The most important insights from the
           "Designing Digital Inclusion" Project, conducted at the Graduate
           Institute of International Development Studies. The full text is
