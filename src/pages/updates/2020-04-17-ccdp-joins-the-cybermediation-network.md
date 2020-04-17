@@ -2,7 +2,7 @@
 templateKey: news-post
 title: CCDP joins the Cybermediation Network
 author: Andreas Hirblinger
-date: 2020-04-20T11:09:00.000Z
+date: 2020-04-20T13:09:00.000Z
 featuredimage: /img/bg_title.png
 ---
 In April 2020, the Center on Conflict Development and Peacebuilding (CCDP)  joined the Cybermediation Network. The CDDP will be represented by Andreas Hirblinger. 
