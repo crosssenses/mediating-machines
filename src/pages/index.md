@@ -39,7 +39,7 @@ activities:
         analysis.
       image: /img/noun_network_195994.png
       icon: /img/mask-group-1-2x.png
-  heading: Project milestones
+  heading: Project activities
 resources:
   background-readings:
     heading: 'Background readings '
@@ -125,7 +125,7 @@ updates:
   heading-updates: Project updates
   heading-twitter: Follow us on twitter
   twitter-account: '#'
-  headingUpdates: Project Updates
+  headingUpdates: Project updates
   headingTwitter: Follow us on twitter
   twitterAccount: hirblinger
 intro:
