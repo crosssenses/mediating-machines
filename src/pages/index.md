@@ -232,11 +232,11 @@ team:
       linkedin: andreas-hirblinger-99697b106
       image: /img/andreas.png
     - bio: >-
-        Prof. Laurent Götschel is the Director of swisspeace  and professor of
-        political science at the University of Basel. He has close ties to the
-        peace mediation community due to a long standing experience in
-        international peacebuilding. 
-      name: Laurent Götschel
+        Prof. Laurent Goetschel is the Director of swisspeace, and the director
+        of the Basel Peace Forum, which strives to bring the innovation and
+        peacebuilding fields closer. He is also a professor of political science
+        at the University of Basel.
+      name: Laurent Goetschel
       image: /img/laurent.png
       twitter: '@lgoetschel'
     - bio: "Ahmed Eleiba is the senior program officer for Mediation at swisspeace. He also represents SwissPeace in the CyberMediation initiative, which focuses on the role of social media and digital technologies in peace mediation.\_"
