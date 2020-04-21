@@ -232,15 +232,17 @@ team:
       linkedin: andreas-hirblinger-99697b106
       image: /img/andreas.png
     - bio: >-
-        Prof. Laurent Götschel is the Director of SwissPeace  and professor of
+        Prof. Laurent Götschel is the Director of swisspeace  and professor of
         political science at the University of Basel. He has close ties to the
         peace mediation community due to a long standing experience in
         international peacebuilding. 
       name: Laurent Götschel
       image: /img/laurent.png
-    - bio: "Ahmed Eleiba is the senior program officer for Mediation at SwissPeace. He also represents SwissPeace in the CyberMediation initiative, which focuses on the role of social media and digital technologies in peace mediation.\_"
+      twitter: '@lgoetschel'
+    - bio: "Ahmed Eleiba is the senior program officer for Mediation at swisspeace. He also represents SwissPeace in the CyberMediation initiative, which focuses on the role of social media and digital technologies in peace mediation.\_"
       name: Ahmed Eleiba
       image: /img/ahmed.png
+      twitter: '@Ahmed_eleiba'
     - name: Tamara Mchedlidze
       bio: >-
         Dr. Tamara Mchedlidze is an expert in graph algorithms and network
@@ -262,6 +264,7 @@ team:
         interested in analyzing the use of alternative facts or “fake news” in
         populist debates.
       image: /img/david.png
+      twitter: '@DavidLanius'
     - name: Alexey Pak
       bio: >-
         Dr. Alexey Pak is an established researcher with a background in
