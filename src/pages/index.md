@@ -58,7 +58,7 @@ resources:
           Institute of International Development Studies. The full text is
           available
           [here](https://graduateinstitute.ch/sites/default/files/2020-02/Digital%20Inclusion%20in%20Peacemaking%20Project%20Summary_0.pdf).
-      - author: 'Höhne, Katharina'
+      - author: 'Höne, Katharina'
         title: >-
           Mediation and Artificial Intelligence:Notes on the Future of
           International Conflict Resolution
