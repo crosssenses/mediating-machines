@@ -194,7 +194,7 @@ about:
 
 
     The project is funded by the [Artificial Intelligence and the Society of the
-    Future Programme
+    Future Initiative
     ](https://www.volkswagenstiftung.de/en/funding/our-funding-portfolio-at-a-glance/artificial-intelligence-and-the-society-of-the-future)of
     the Volkswagen Foundation.
 main:
@@ -299,7 +299,7 @@ footer:
     text: >-
       This website is maintained by the Graduate Institute of International and
       Development Studies, Geneva. A full disclaimer can be found on [the
-      institut's
+      institute's
       website](https://graduateinstitute.ch/privacy_policy#Disclaimer).
 
 
