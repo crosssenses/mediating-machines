@@ -224,10 +224,10 @@ team:
   teamMembers:
     - name: Andreas Hirblinger
       bio: >-
-        Dr. Andreas Hirblinger has extensive experience in international peace
-        mediation. He conducts research on the role of knowledge production in
-        peacebuilding,  digital inclusion and the use of  technology in peace
-        processes at the CCDP, Graduate Institute, Geneva. 
+        Dr. Andreas Hirblinger has a broad expertise on various aspects of
+        inclusive peace mediation. He conducts research on the role of knowledge
+        production in peacebuilding,  digital inclusion and the use of 
+        technology in peace processes at the CCDP, Graduate Institute, Geneva. 
       twitter: hirblinger
       linkedin: andreas-hirblinger-99697b106
       image: /img/andreas.png
