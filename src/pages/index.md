@@ -106,7 +106,7 @@ resources:
           https://peacemaker.un.org/digitaltoolkit
       - title: Digital Inclusion in Peacemaking
         text: >-
-          Research project conducted at the Center on Conflict, Development and
+          Research project conducted at the Centre on Conflict, Development and
           Peacebuilding (CCDP), Graduate Institute of International and
           Development Studies, 2020. 
 
