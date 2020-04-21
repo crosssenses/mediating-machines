@@ -189,13 +189,13 @@ about:
     This project is conducted by researchers at the Centre on Conflict,
     Development and Peacebuilding (CCDP),  Graduate Institute of International
     Development Studies, Geneva (IHEID), the Karlsruhe Institute of Technology
-    (KIT), the FraunhoferInstitute of Optronics, System Technologies and Image
-    Exploitation(IOSB), Universität Düsseldorf and SwissPeace.
+    (KIT), the Fraunhofer Institute of Optronics, System Technologies and Image
+    Exploitation (IOSB), Universität Düsseldorf and SwissPeace.
 
 
     The project is funded by the [Artificial Intelligence and the Society of the
-    Future
-    Programme](https://www.volkswagenstiftung.de/en/funding/our-funding-portfolio-at-a-glance/artificial-intelligence-and-the-society-of-the-future)of
+    Future Programme
+    ](https://www.volkswagenstiftung.de/en/funding/our-funding-portfolio-at-a-glance/artificial-intelligence-and-the-society-of-the-future)of
     the Volkswagen Foundation.
 main:
   heading: Great coffee with no compromises
