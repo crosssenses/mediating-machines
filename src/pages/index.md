@@ -224,10 +224,10 @@ team:
   teamMembers:
     - name: Andreas Hirblinger
       bio: >-
-        Dr. Andreas Hirblinger has a broad expertise on various aspects of
-        inclusive peace mediation. He conducts research on the role of knowledge
-        production in peacebuilding,  digital inclusion and the use of 
-        technology in peace processes at the CCDP, Graduate Institute, Geneva. 
+        Dr. Andreas Hirblinger has broad expertise on inclusive peacemaking and
+        peacebuilding. He conducts research on  knowledge production, digital
+        inclusion and the use of  technology in peace processes at the CCDP,
+        Graduate Institute, Geneva. 
       twitter: hirblinger
       linkedin: andreas-hirblinger-99697b106
       image: /img/andreas.png
@@ -239,7 +239,7 @@ team:
       name: Laurent Goetschel
       image: /img/laurent.png
       twitter: '@lgoetschel'
-    - bio: "Ahmed Eleiba is the senior program officer for Mediation at swisspeace. He also represents SwissPeace in the CyberMediation initiative, which focuses on the role of social media and digital technologies in peace mediation.\_"
+    - bio: "Ahmed Eleiba is the senior program officer for Mediation at swisspeace. He also represents swisspeace in the CyberMediation initiative, which focuses on the role of social media and digital technologies in peace mediation.\_"
       name: Ahmed Eleiba
       image: /img/ahmed.png
       twitter: '@Ahmed_eleiba'
