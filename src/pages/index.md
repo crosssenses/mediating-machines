@@ -6,7 +6,7 @@ subheading: Opportunities and Challenges of Artificial Intelligence (AI) in Peac
 activities:
   workstreams:
     - tag: Workstream 1
-      title: Mediator's Needs and Ecosystems
+      title: Mediators' Needs and Ecosystems
       description: >-
         The team will analyze the practical needs and potential strategic
         purposes of AI in mediation support, as well as the organizational and
@@ -31,7 +31,7 @@ activities:
       title: Output Visualisation
       description: >-
         The team will identify data visualization techniques that can help 
-        integrate AI outputs into  mediator’s workflows and decision-making
+        integrate AI outputs into  mediators' workflows and decision-making
         processes. This includes  geographic visualization and graph-based
         techniques  graph-based techniques. We will also explore the prospects
         of creating visual data mining tools that present multiple perspectives
