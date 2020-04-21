@@ -53,6 +53,10 @@ a
 .is-two-thirds
   padding-right: 40px;
 
+  @include until($tablet)
+    padding-right: 0.75rem;
+
+
 // Navbar
 .navbar
   padding: 20px 0
@@ -66,6 +70,9 @@ a
     a:hover
       color: $black
 
+    @include until($tablet)
+      font-size: 1.3em
+
   .navbar-menu
     .navbar-item
       text-transform: uppercase
@@ -76,6 +83,9 @@ a
 .pageWrapper
   padding-top: 53px
 
+  @include until($tablet)
+    padding-top: 20px;
+
 // Hero
 #hero
   background-position: -300px 0;
@@ -84,16 +94,27 @@ a
   padding: 200px 0 50px;
   margin-bottom: -100px;
 
+  @include until($tablet)
+    background-size: 330%;
+    background-position: -297px -11px;
+
   .pageTitle
     background-position: center top
     background-size: 100% 100%
     background-repeat: no-repeat
     padding: 40px 40px 84px
 
+    @include until($tablet)
+      background-size: 80% 80%
+      padding: 30px 60px 84px
+
     h1
       color: $black
       margin-bottom: 1em
       font-size: 1.3em
+
+      @include until($tablet)
+        font-size: 1em
 
     h2
       font-family: $serif
@@ -102,6 +123,11 @@ a
       text-transform: none
       letter-spacing: 0
       line-height: 1.2em
+
+      @include until($tablet)
+        font-size: 1.3em
+
+
 
 #about
   .column:last-child
@@ -208,6 +234,11 @@ footer
   padding-top: 100px;
   text-align: right;
 
+  @include until($tablet)
+    background-size: 330%;
+    background-position: -297px -145px;
+    background-repeat: no-repeat
+
   h1
     font-family: $serif
     font-size: 2em
@@ -222,6 +253,13 @@ footer
     display: inline-block
     max-width: 400px;
     text-align: left;
+
+
+    @include until($tablet)
+      background-size: 100% 100%
+      padding: 2em 2em 3.5em;
+      font-size: 1em
+      margin: 1.5rem
 
 .postMeta
   p
