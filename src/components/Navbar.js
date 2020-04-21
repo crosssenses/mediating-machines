@@ -52,9 +52,6 @@ const Navbar = class extends React.Component {
               role="button"
               tabIndex="0"
             >
-              <span />
-              <span />
-              <span />
             </div>
           </div>
           <div

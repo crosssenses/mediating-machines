@@ -5,6 +5,13 @@ module.exports = {
       'Opportunities and Challenges of Artificial Intelligence (AI) in Peacemaking: Enabling  inclusive peacemaking in the digital age  through machine-supported argument analysis',
   },
   plugins: [
+    {
+      // Add Google Analytics
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-164051143-1",
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
