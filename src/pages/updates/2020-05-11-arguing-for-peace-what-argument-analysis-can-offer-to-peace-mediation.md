@@ -21,7 +21,7 @@ A closer look at the literature makes clear that arguments play an important rol
 [Transformative approaches ](https://www.beyondintractability.org/essay/transformative_mediation)to mediation go even further, as they aim to empower conflict parties and conflict affected populations to express their interests and needs while giving them mutual recognition. [This approach allows parties to move beyond antagonistic, violent relationships to form agonistic, non-violent relationships instead](https://journals.sagepub.com/doi/abs/10.1177/0967010619893227?journalCode=sdib). In order to reach this desired outcome, it's necessary to understand and analyze the arguments that underpin conflict parties’ positions, including the premises and claims on which they are based. This is where argument analysis could enable mediators to more systematically assess the thinking that underpins the conflict parties’ positions.
 ###
 
-#### Arguments in Policy Debates and Participatory Processes
+#### Learning from Policy Debates and Participatory Processes
 
 Argument analysis has recently emerged as a powerful tool that can support policy making across a wide range of topics, to understand both pros and cons of specific policy measures. These include responses to  [climate change ](https://link.springer.com/chapter/10.1007/978-3-319-30549-3_13)and[ environmental disasters](https://link.springer.com/chapter/10.1007/978-3-319-30549-3_10), [financial crises](https://link.springer.com/chapter/10.1007/978-3-319-30549-3_11), and how to[ design large-scale public infrastructure projects](https://dbs.cs.uni-duesseldorf.de/publikationen.php?&pubid=329).
 
