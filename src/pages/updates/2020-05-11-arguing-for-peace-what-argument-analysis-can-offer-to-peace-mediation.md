@@ -30,7 +30,7 @@ New advancements in machine-learning also make it likely to analyze [large amoun
 
 #### What's on the Table? Conflicts as Wicked Problems
 
-Argument analysis promises to be of particular value for situations shaped by uncertainty and complexity. It’s applicable to contexts characterized by so-called “wicked problems”, i.e., problems in which there is little agreement not only about the solution but about what created tensions in the first place. The framing of problems affects which solutions appear reasonable.
+Argument analysis promises to be of particular value for situations shaped by uncertainty and complexity. It is particularly applicable to contexts characterized by so-called “wicked problems”, i.e., problems in which there is little agreement not only about the solution but about what caused the problem in the first place. And depending on how problems are framed, alternative solutions may seem reasonable.  
 
 [Armed conflicts share similarities with wicked problems](https://link.springer.com/chapter/10.1057/978-1-137-60111-7_6): parties maintain different narratives and do not agree on the causes of conflict, which explains why the solution of the conflict remains elusive. Metaphorically speaking, the conflict parties do not agree on what the cake is, or with what tool to split it. We thus first need to get a common understanding of what's on the table. This is why mediators need to look at how conflict parties argue not only about what’s at stake in a conflict, but about different options for its resolution. Argument analysis can help to both define the cake, and understand how to split it.
 ###
