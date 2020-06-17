@@ -4,19 +4,21 @@ title: Why Machine-supported Analysis Matters for Digital Inclusion
 author: Andreas Hirblinger
 date: 2020-06-17T11:24:00.000Z
 ---
+###
+
 Until recently, mediators tended to think about their work as a "human-centered" activity. Facilitating negotiations between conflict parties was something that would occur predominantly offline – ideally, behind closed doors and in a technology-free environment. The 2020 global COVID-19 pandemic has radically changed this view. Due to lockdowns and global travel restrictions, many mediators and mediation support organizations [rely more heavily than before on digital technologies](https://www.pscp.tv/w/1ynJOpaqNzQxR), to communicate with conflict parties and stakeholders to a peace process. For instance, swisspeace and NOREF  facilitated [a series of virtual meetings](https://noref.no/About-NOREF/News/UN-Syria-Envoy-continues-to-engage-Syrian-civil-society) between the UN Special Envoy for Syria and Syrian civil society.
 
+###
 
-
-**Challenges of Digital Inclusion Data**
+#### **Challenges of Digital Inclusion Data**
 
 While the pandemic has accelerated a trend toward [Cybermediation](https://twitter.com/CyberMediat_net), the past years already witnessed a growing use of digital technologies, especially to increase inclusion in peace processes. For instance, in 2012, in the course of the peace process between the Revolutionary Armed Forces of Columbia (FARC) and the government of Colombia, digital tools were used to consult with the public to shape the agenda of the peace negotiations. The data collection was as a joint effort by the mediation parties in collaboration with the government and took place through a dedicated web page and a smartphone application. The process collected more than 17.000 submissions – an amount that created considerable challenges for a systematic analysis.  
 
 Digital inclusion activities are also likely to create more information, and more complex and fine-grained data, than conventional inclusion activities, such as consultations or workshops. Online surveys or polls via text-messaging applications are set up comparably easily. The challenge, however, is to deal with the amount and quality of data that such activities generate. While digital tools help to make processes more inclusive by collecting more data, successful digital inclusion also depends on our ability to adequately make sense of this information. This is why data analysis should be integrated in any digital inclusion activity right at the beginning. Those who participate and provide information will also want to know about the results, and how they are used by the mediation. 
 
+###
 
-
-**Machine-supported, "Deep" Text Analysis** 
+#### **Machine-supported, "Deep" Text Analysis** 
 
 Therefore, the automated analysis of large amounts of texts will be a determining factor for future inclusive peacemaking. For instance, [AI-powered text analysis tools may help to analyze content generated in online conversations](https://thenextweb.com/neural/2020/02/21/un-will-use-ai-to-learn-what-people-want-from-peace-deals/) and enable real-time communication between the mediation and a large number of participants. Named Entity Recognition (NER) may help to categorize the data, by identifying specific actors, locations, or events and relating them to specific content. Term Frequency Analysis, for instance, may help to get a sense of the importance of particular terms, and unsupervised learning methods can be used for topic modelling that helps to get a sense of what the stakeholders are concerned about. 
 
