@@ -2,7 +2,7 @@
 templateKey: news-post
 title: Why Automated Analysis Matters for Digital Inclusion
 author: Andreas Hirblinger
-date: 2020-06-17T13:24:12.726Z
+date: 2020-06-17T11:24:00.000Z
 ---
 
 Until recently, mediators tended to think about their work as a "human-centred" activity. Facilitating negotiations between conflict parties was something that would occur predominantly offline – ideally, behind closed doors and in a technology-free environment. The 2020 global COVID-19 pandemic has radically changed this view. Due to lockdowns and global travel restrictions, many mediators and mediation support organizations [rely more heavily than before on digital technologies](https://www.pscp.tv/w/1ynJOpaqNzQxR), to communicate with conflict parties and stakeholders to a peace process. For instance, swisspeace and NOREF  facilitated [a series of virtual meetings](https://noref.no/About-NOREF/News/UN-Syria-Envoy-continues-to-engage-Syrian-civil-society) between the UN Special Envoy for Syria and Syrian civil society.
