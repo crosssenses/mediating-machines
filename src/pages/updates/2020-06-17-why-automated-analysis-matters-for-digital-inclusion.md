@@ -1,6 +1,6 @@
 ---
 templateKey: news-post
-title: Why Automated Analysis Matters for Digital Inclusion
+title: Why Machine-supported Analysis Matters for Digital Inclusion
 author: Andreas Hirblinger
 date: 2020-06-17T11:24:00.000Z
 ---
